@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="robots" content="noindex">
+    <title>J.CREW</title>
+    <!-- Bootstrap CSS -->
+  
+  <link href="StyleSheets/colorbox.css" rel="stylesheet">
+  <link href="StyleSheets/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+  <link href="StyleSheets/font-awesome.min.css" rel="stylesheet">
+    <!-- MAIN CSS -->
+  <link href="StyleSheets/style.css" rel="stylesheet">
+
+  
+  <script src="js/jquery.min.js"></script>
+  
+  <!--Colorbox-->
+ <script src="js/jquery.colorbox.js"></script>
+ <script src="js/jquery.colorbox-min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootbox.min.js"></script>
+
+
+<!--<script type="text/javascript">
+$(document).ready(function(){
+                $("#myModal").modal('show');
+                $('.hide-modal').click(function(){
+                 $('#myModal').modal('hide');
+                });
+});
+</script>-->
+  </head>
+
+  <style type="text/css">
+      .close {
+  
+        font-size: 50px !important;
+        margin-right:10px!important;
+
+  }
+
+
+
+
+  .modal-dialog{
+
+    width:auto !important;
+  }    
+  
+
+
+  </style>
+  
+  <body>
+       <script>
+//Get keyvalue pair string that was set on log in page-->
+$(document).ready(function(){
+if(sessionStorage.getItem('benefits19', 'pw')) {
+$('.modal-backdrop').remove();
+$('#myModal').remove();
+}
+
+else{
+
+//link back to log in
+   window.location = "https://www.benefitsquest.com/jcrewlanding/";;
+
+}
+});
+
+</script>
+   
+<div class="page">
+      <div class="container">
+    <!-- Modal HTML -->
+ <!--<div class="bs-example">
+   
+
+    <div style="margin-top:130px;" id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">J.Crew Enrollment Update</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Due to a system update, the J.Crew Benefits Enrollment Call Center will be closed from 10:00p.m. ET on Thursday, April 27th through 7:00a.m. ET on Monday, May 1st. We apologize for any inconvenience.</p>
+                  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+        <!-- START HEADER -->
+        <header class="header">
+          <div class="row">
+            <div class="col-sm-6 logo">
+              <a href="index.html"><img src="Images/logo.png" alt="J.CREW" style="max-width: 300px;"></a>
+            </div>
+            <div class="col-sm-6 enroll">
+             BENEFITS 2019
+            </div>
+          </div>
+        </header>
+
+        <!-- START NAV -->
+        <div class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                 <li><a href="index.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="benefits-overview.html">Overview</a></li>
+                    <li><a href="benefit-highlights.html">Benefit Highlights</a></li>
+                    <li class="dropdown-submenu"><a href="healthplan" class="dropdown-toggle" data-toggle="dropdown">Health Plan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="healthplan-overview.html">Overview</a></li>
+                        <li><a href="medical-plan-summary.html">Medical Plan Summary</a></li>
+                        <li><a href="prescription-drug-plan.html">Prescription Drug Plan</a></li>
+                      <!--  <li><a href="right-plan-for-you">The Right Plan for You</a></li>-->
+                        <li><a href="total-cost-of-healthcare.html">Total Cost of Health Care</a></li>
+                        <li><a href="how-to-save-on-healthcare.html">How to Save</a></li>
+                        <li><a href="tobacco.html">Tobacco Free Incentive</a></li>
+                        <li><a href="consumer-choice-hsa.html">Consumer Choice + HSA</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="dental.html">Dental Plan</a></li>
+                    <li><a href="vision.html">Vision Plan</a></li>
+                    <li><a href="flexible-spending-account.html">Flexible Spending Account</a></li>
+
+                    <li><a href="critical-illness-insurance.html">Critical Illness Insurance</a></li>
+                    <li><a href="accident-insurance.html">Accident Insurance</a></li>
+                    <li><a href="hospital-indemnity-insurance.html">Hospital Indemnity Insurance</a></li>
+                    <li><a href="disability-insurance.html">Disability Insurance</a></li>
+                    <li><a href="life-insurance.html">Life Insurance</a></li>
+                     <!--<li><a href="401k.html">401k</a></li>-->
+                    <li><a href="other-benefits.html">Other Benefits</a></li>
+<li><a href="401k.html">401(k)</a></li>
+                    <li><a href="terms-to-know.html">Benefit Terms to Know</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="enrollment-overview.html">Overview</a></li>
+                    <li><a href="how-to-enroll.html">How To Enroll</a></li> 
+										<li><a href="premiums.html">Premiums</a></li>
+                  </ul>
+                </li>
+                <li><a href="important-contact-information.html">Contacts</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+     <!--
+        <section class="content-area">
+          <div class="row">
+           
+            <div class="col-sm-3">
+              <div class="sidebar">
+                <h3 class="title">HOW TO ENROLL</h3>
+                  <div class="img-wrapper">
+                  <img src="Images/enroll.png" alt="">
+                </div>
+              </div>
+            </div>
+
+           
+        
+            <div class="col-sm-9">
+              <div class="article editable">
+                <p>Review this website carefully. This information will help you to understand the benefit options available to you and how to elect coverage.<br><br>
+<b>All elections made during this year’s Open Enrollment period become effective January 1, 2018. (For Life and Supplemental Long-Term Disability Insurance, Evidence of Insurability is required if you were previously eligible, but electing coverage for the first time or if you are increasing coverage levels. EOI must be approved before the benefit can begin).</b>
+</p>
+                <h4>ENROLLMENT OPTIONS</h4>
+                <p>
+                  <B>There are two ways to elect coverage:</B>
+                </p>
+            <ol>
+     
+              <li><strong>Online:</strong>Visit <a href="https://uenroll.net/JCrew2017" target="blank" class="link01">https://uenroll.net/JCrew2017</a> to access the online enrollment system. You will need the following information to log in:
+                  <ul style="list-style-type:lower-alpha">
+                      <li><b>Username:</b> Your SAP ID</li>
+                      <Li><b>Password:</b> “Jcrew” and last 4 digits of your Social Security Number (Jcrew####)</Li>
+                    </ul>
+
+               </li>
+                
+              <li><strong>Benefits Enrollment Call Center </strong><br>Call the Benefits Enrollment Call Center to speak with a Benefits Counselor who will explain your benefits, answer your questions and complete your enrollment. </li>
+      </0l>
+                    <div class="table-responsive tshadow margintop">
+                      <table class="table xtable">
+                        <thead>
+                          <tr>
+                            <td colspan="4" class="text-center"><strong>        Call the Benefits Enrollment Call Center at<br>
+              1-888-827-8729<br>
+        Monday – Friday, 9:00 a.m. – 6:00 p.m. ET
+                              </strong>
+                            </td>
+                          </tr>
+                        </thead>
+                      
+                      </table>
+                    </div>
+                
+               
+              </div>
+            </div>
+          </div>
+        </section>-->
+                <!-- START CONTENT AREA -->
+        <section class="content-area">
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-sm-3">
+              <div class="sidebar">
+                <h3 class="title">HOW TO ENROLL</h3>
+
+                  <div class="block">
+                  <div class="widget">
+                   <a target="_blank" class="link02" href="docs/2018/MyUnivers Account Set Up J.Crew 1_30_17.pdf"><h4 style="display:inline;">Click here</h4></a>  <p style="display: inline;"> for instructions on setting up your online account and viewing your confirmation statement.</p>
+
+                  </div>
+                  
+                </div>
+                
+
+              </div>
+            </div>
+            <!-- Article -->
+            <div class="col-sm-9">
+              <div class="article editable" id="26">
+                <!--<p>
+                  Review this website carefully. This information will help you to understand the benefit options available to you and how to elect coverage.<br><br>
+
+                  All elections made during this year's Open Enrollment period become effective January 1, 2019, except Health Savings Account (HSA), Life and Disability. Please refer to the appropriate sections for details.
+
+
+                </p>-->
+
+                 <!-- <b> Your health care coverage is effective on the first of the month following your date of hire, rehire or status change to regular full-time. You must enroll for J.Crew benefits within 31 days of your coverage effective date.</b></p>
+
+                <p>Medical Underwriting (EOI) is required for coverage over the guaranteed amount or as a late entrant for Supplemental Life, Spouse Life and Supplemental LTD. Coverage is effective upon approval from the applicable carrier.</p>-->
+                <h4>ENROLLMENT OPTIONS</h4>
+
+
+                <p><b>There are two ways to elect coverage:</b></p>
+                <ol>
+
+
+                  <li><strong>Benefits Enrollment Call Center:</strong> Call the Benefits Enrollment Call Center at <a class="link01" href="tel:855-874-0297">888-827-8729</a>, Monday - Friday, 9am - 6pm ET, to speak with a Benefits Counselor who will explain your benefits, answer your questions and process your enrollment over the phone. <!--Click the link below to see the schedule for your recommended call-in dates and times.--></li> <br>
+
+
+
+                   <!-- Trigger the modal with a button -->
+                   <!-- <div class="row">
+                      <button type="button" data-toggle="modal" data-target="#myModal" style="line-height: normal;" class="tilt2 e-button col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+                        <p><b>View Enrollment Schedule</b></p>
+
+
+                       </button>
+                      </div><br>-->
+
+                  
+
+
+
+                  <li><strong>Online:</strong> Visit <a href="https://uenroll.net/jcrew2019/" class="link02" target="blank">https://uenroll.net/Jcrew2019/</a> to access the online enrollment system. You will need the following information to log in:
+
+                    <ol type="a">
+                      <li>Username: Your SAP ID</li>
+                      <li>Password: “Jcrew” and last 4 digits of your Social Security Number (Jcrew####)</li>
+                    </ol>
+
+                  </li>
+
+                </ol><br>
+
+
+                     <!-- banner NH
+                    <div class="row">
+                      <div style="line-height: normal;" class="e-banner col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+                        <p><b>Call the Benefits Enrollment Call Center at<br>
+                         1-888-827-8729<br>
+                         Monday - Friday, 9:00 a.m. - 6:00 p.m. ET
+                            </b></p>
+
+
+                       </div>
+                      </div><br>-->
+
+
+
+                      
+                            
+              <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                            
+                  <div class="modal-content">
+
+                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           <div class="modal-header">
+                             
+                            <center><p class="visible-xs"><small>If you are on a mobile device please scroll horizontally to view the full chart"</small></p></center>
+
+                           </div>
+                    <div class="modal-body">
+
+                   <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+
+                    <center><p>To minimize hold times, we recommend you call during the designated dates/times shown in the chart below.</p></center>                                                
+                    <div class="table-responsive tshadow margintop">
+                      <table class="table xtable">
+                        <thead>
+                          <tr>
+                            <td colspan="4" class="text-center"><strong><h3 style="color:white;">2019 J.Crew Benefits Enrollment Call Center Schedule</strong></h3> <br>
+                              Enrollment Center Phone Number: <a href="tel:855-874-0297" style="color:white;">855-874-0297</a> <br>
+                              Hours of Operation: Monday – Friday, 9:00 a.m. – 7:00 p.m., ET
+                            </td>
+                          </tr>
+                        </thead>
+                        <thead>
+                          <tr>
+                            <th style="text-align: center;vertical-align: middle;">If your last name begins with:</th>
+                            <th style="text-align: center;vertical-align: middle;" >Your call-in dates are:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr style="text-align: center;vertical-align: middle;">
+                            <td>A to J</td>
+                            <td>11/6, 11/7, 11/8</td>
+
+                          </tr>
+                          <tr style="text-align: center;vertical-align: middle;">
+                            <td>K to R</td>
+                            <td>11/9, 11/12, 11/13</td>
+
+                          </tr>
+                          <tr style="text-align: center;vertical-align: middle;">
+                            <td>S to Z</td>
+                            <td>11/14, 11/15, 11/16, 11/19</td>
+                          </tr>
+                                                                                                    
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+
+
+
+                 
+                  </li>
+
+                
+                 <!-- <br>
+                   <li><strong>NEW Enrollment Cafè (Corporate Offices, Asheville, Lynchburg and San Antonio only):</strong> Enroll online with as much or as little assistance as you need from a benefits counselor, who can answer benefit questions and help you enroll. Click the link below to see locations, dates and times that the Enrollment Cafè will be available for in-person enrollment sessions. To schedule an appointment at a Coporate location, visit <a class="link01" href="https://booknow.appointment-plus.com/y7g9r8g6/" target="_blank">www.benefitsgo.com/jcrew</a>. Sign-up sheets will be available at Lynchburg, Asheville and San Antonio,
+
+
+
+                     <div class="row">
+                      <button type="button" data-toggle="modal" data-target="#myCafe" style="line-height: normal;" class="tilt2 e-button col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+                        <p><b>View Enrollment Cafè Schedule</b></p>
+                      </button>
+                     </div>
+
+                                    
+              <div id="myCafe" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                             
+                  <div class="modal-content">
+
+                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           <div class="modal-header">
+                                      <center><p class="visible-xs"><small>If you are on a mobile device please scroll horizontally to view the full chart"</small></p></center>
+
+                           </div>
+                    <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">       
+                                                                        
+   
+                    <div class="table-responsive tshadow margintop">
+                      <table class="table xtable">
+                        <thead>
+                          <tr>
+                            <td colspan="3" class="text-center"><strong><h3 style="color:white">2018 J.Crew Enrollment Cafè Schedule</h3></strong></td>
+                          </tr>
+                        </thead>
+                        <thead>
+                          <tr>
+                            <th>LOCATION</th>
+                            <th>DATES</th>
+                            <th>HOURS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>770 Corporate</td>
+                            <td>11/13 - 11/17 
+                            <td>10:00am - 6:00pm ET</td>
+                          </tr>
+                          <tr>
+                            <td>30-30 Corporate</td>
+                            <td>11/13 - 11/17</td>
+                            <td>10:00am - 6:00pm ET</td>
+                          </tr>
+                          <tr>
+                            <td>Lynchburg</td>
+                            <td>11/7 <br>
+                                11/8<br>
+                                11/9<br>
+                                11/10<br>
+                                11/13<br>
+                                11/14<br>
+                                11/15<br>
+                                11/16<br>
+                                11/17
+                               </td>
+                            <td>8:00am - 6:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                                7:30am - 7:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                                7:30am - 7:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                                8:00am - 6:00pm ET<br>
+                            </td>
+                          </tr>
+                         
+                          <tr>
+                            <td>Asheville</td>
+                            <td>11/7 - 11/10 <br>
+                                 <br>
+                                </td>
+                            <td>10:00am - 7:00pm ET</td>
+                          </tr>
+                          <tr>
+                            <td>San Antonio</td>
+                            <td>11/7 - 11/10<br>
+                                11/13 - 11/17
+                                </td>
+                            <td>10:00am - 7:00pm ET<br>10:00am - 7:00pm ET</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+
+
+
+
+                  </li>-->
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- START FOOTER -->
+        <footer class="footer">
+             <a href="notices.html">Notices</a> &copy; 2019 J.CREW
+        </footer>
+
+      </div><!-- END CONTAINER -->
+    </div><!-- END PAGE -->
+
+
+
+  <!-- jQuery -->
+
+<!--Toggle Dropdown script-->
+<script type="text/javascript">
+      (function($){
+        $(document).ready(function(){
+          $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+            $(this).parent().siblings().removeClass('open');
+            $(this).parent().toggleClass('open');
+          });
+        });
+      });
+</script>
+      
+    <!--Submenu Delay-->  
+      
+<script>
+jQuery('ul.nav li.dropdown').hover(function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+            }, function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+            });
+
+</script>
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-44', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

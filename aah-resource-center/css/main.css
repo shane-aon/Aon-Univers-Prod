@@ -1,0 +1,308 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  background-color: #efefef;
+  font-family: 'Verdana';
+}
+
+/*Prelo Slab - Aon Font*/
+
+@font-face {
+    font-family: 'Prelo Slab';
+    src: url('fonts/PreloSlab-Light.woff2') format('woff2'),
+        url('fonts/PreloSlab-Light.woff') format('woff'),
+        url('fonts/PreloSlab-Light.svg#PreloSlab-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Prelo Slab';
+    src: url('fonts/PreloSlab-SemiBold.woff2') format('woff2'),
+        url('fonts/PreloSlab-SemiBold.woff') format('woff'),
+        url('fonts/PreloSlab-SemiBold.svg#PreloSlab-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Prelo Slab';
+    src: url('fonts/PreloSlab-Medium.woff2') format('woff2'),
+        url('fonts/PreloSlab-Medium.woff') format('woff'),
+        url('fonts/PreloSlab-Medium.svg#PreloSlab-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+
+	font-family: 'Prelo Slab' !important;
+  color:#7d81be;
+}
+
+h2{
+  color:#7d81be;
+}
+
+h4{
+
+  font-size: 1.2rem;
+}
+/*Nav*/
+
+.logo{
+  max-width: 400px;
+}
+
+.nav-item{
+
+	  font-family: 'Prelo Slab';
+    color: #4d4f53 !important;
+    font-size: 1.0rem !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+	color: #4d4f53;
+}
+
+.nav-link.active{
+  color:#7d81be !important;
+}
+
+.callout-card{
+	  position: relative;
+    box-shadow: 0 8px 16px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card{
+	  position: relative;
+    text-align:center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+a:hover{
+  text-decoration: none !important;
+
+}
+
+.solution-list-item{
+
+    font-weight: bold;
+    color:#7d81be;
+    font-family: 'Prelo Slab' !important;
+
+}
+
+.welcome-text{
+
+     color:#7d81be;
+     padding-bottom: 15px;
+
+}
+
+.welcome-body{
+
+  font-size: 1.1rem !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.card-title{
+	  font-size: 1.0rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.top-title{
+
+	font-family: 'Prelo Slab';
+    color: #7d81be;
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+    text-transform: none;
+}
+.card-body{
+
+
+}
+
+
+ i.far{
+
+  color:#7d81be !important;
+}
+
+.card-image{
+
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+.red-box{
+
+    border: 3px solid #7d81be;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    height: 100%;
+
+  }
+
+.shadow{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    padding:2.2rem;
+  }
+
+
+/*Button*/
+.my-btn {
+  max-width: 100% !important;
+  position: relative;
+  font-family: 'Prelo Slab';
+  padding: 10px 32px;
+  font-size: 0.9rem;
+  border: none;
+  height: 40px;
+  outline: none !important;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: none;
+  border-radius: 0;
+  transition: padding .4s;
+  -webkit-transition: padding .4s;
+}
+
+.my-btn:hover {
+  padding: 10px 52px 10px 32px !important;
+}
+
+
+.modal-body{
+
+  height:40% !important;
+}
+
+
+
+/*Table */
+
+.table td{
+
+  padding:1.40rem;
+}
+
+/*Video Library*/
+
+.card-img-top{
+
+  height:80%;
+}
+
+@media (hover: none) {
+  .my-btn:hover {
+    padding: 10px 32px !important;
+  }
+}
+
+.my-btn:before {
+  content: '';
+  width: 20px;
+  background: rgba(28, 23, 23, 0);
+  position: absolute;
+  border: 20px solid transparent;
+  border-left-color: #fff;
+  border-right: 0;
+  height: 100%;
+  top: 0;
+  right: -20px;
+}
+
+.my-btn:after {
+  content: '';
+  width: 20px;
+  background: red;
+  position: absolute;
+  right: -20px;
+}
+
+.my-btn.white {
+  background: #fff;
+  color: #e11b22;
+}
+
+.carousel-indicators{
+  bottom: -10px !important;
+}
+
+
+@media screen and (max-width: 1199px){
+
+  .logo{
+  max-width: 300px;
+}
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .my-btn.white {
+    background: #e11b22;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .my-btn.white:before {
+    border-left-color: #e11b22;
+  }
+  .card-title {
+    font-size: 1.0rem;
+  }
+}
+
+.my-btn.red {
+  background: #7d81be;
+  color: #fff;
+}
+
+.my-btn.red:before {
+  border-left-color: #7d81be;
+}
+
+/*Footer*/
+
+.footer-link a{
+
+	color: white !important; 
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width: 771px){
+
+  .logo{
+  max-width: 200px;
+}
+}

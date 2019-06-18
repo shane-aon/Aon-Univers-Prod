@@ -1,0 +1,742 @@
+/*Bullets */
+
+ .bigred li:before {    
+/*font-family: 'FontAwesome';*/
+content: '\f111';
+margin:0 5px 0 -15px;
+color: #bc2026;
+font-size: 65%;
+    list-style-type:none;
+}
+
+
+.trans {  
+	
+    opacity:0.6 !important;
+      
+  
+}
+
+.trans:hover{
+  background-color:#021f44 !important; 
+
+
+}
+/*Landing page Image Squares*/
+.imagesred {
+	 
+	  height:150px;
+	  background-image:url("../images/family.png");
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+
+
+.imagesyellow {
+	 
+	  height:150px;
+	  background-image:url("../images/gym.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+.imagesblue {
+	 
+	  height:150px;
+	  background-image:url("../images/doctor.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+.imagesgray {
+	 
+	  height:150px;
+	  background-image:url("../images/gym2.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+
+
+
+
+
+.rewind{display:inline-block;}
+
+
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-MdCd';
+	src: url('../fonts/ITCFranklinGothicStd-MdCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-MdCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-MdCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-MdCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-BkCd';
+	src: url('../fonts/ITCFranklinGothicStd-BkCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-BkCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-BkCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-BkCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*Opens Dropdown Health-Plan Box on "My Benefits" hover for better User experience
+   @media screen and (min-width:900px){
+     
+   .dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+      }
+
+/*Media Query to allow hover dropdown on nav
+@media screen and (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;*/
+
+
+body {
+  font-family: 'Conv_ITCFranklinGothicStd-BkCd', Helvetica, Arial, sans-serif;
+
+}
+
+
+
+a {
+    color: #EB3C31;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+/*Color Spans Red/Blue/Yellow*/
+.yellow{color:#e69e37;}
+.blue{color:#002554;}
+.red{color:#be3539;}
+.orange{color:#e69a23}
+.gray{color:#657077;}
+
+/*Warning Box/Hover/Alert */
+
+/* Btn-danger color */
+
+/*Change HCR Bootstrap Box colors & All BUTTONS to Blue Theme*/
+.btn-danger{background-color:#002554 !important ;border-color:#002554 !important; }
+
+.panel-danger>.panel-heading {
+    /* color: #a94442; */
+    background-color: #002554;
+    border-color: #002554;
+    color:white;
+}
+
+.panel-danger {
+    border-color: #ebccd1;
+}
+
+.panel-danger {
+    border-color: #002554;
+}
+  
+  .steps{ margin-top:20px;padding-left:120px;}
+  .fixit{margin-top:25px;}
+  .vcenter {
+    margin-top:50px;}
+
+ #centerlistbullets {
+   text-align:center;
+}
+
+#centerlistbullets ul {
+    display: inline-block;
+        text-align:left;
+}
+  
+
+
+.alert-danger {
+    color: white;
+    background-color: #002554;
+    border-color: gray;
+
+}
+/*New Colors*/
+
+ .blue{
+
+ 	color:#002554;
+ 	font-weight:bold;
+ }
+/*yellow tyson F3AF00*/
+ .myellow{
+ 	color:#F3AF00;
+ 	font-weight:bold;
+
+ }
+
+ .mustard{
+
+ 	color:#916600;
+ 	font-weight:bold;
+
+ }
+
+ .sage{
+
+ 	color:#506B67;
+ 	font-weight:bold;
+ }
+
+ .cayenne{
+
+ 	color:#EB3C31;
+ 	font-weight:bold;
+ }
+
+.warning2{
+   color:#be3539;
+   border:2px solid #657077;
+   padding:10px;}
+
+ .warning:hover{
+   color:#be3539;
+   border:2px solid #657077;
+   padding:10px;}
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+margin-bottom:0px;
+z-index:100;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #002554;
+  background-color: #fff;
+}
+
+ .navbar-nav {
+    font-size:150%;
+  }
+
+
+
+  
+.homered {
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+
+  }
+/*New Medical OE Blue Block-*/
+.homemedical {
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+	  border-right:2px solid white;
+	  border-right:2px solid white;
+
+  }
+
+.homemedical:hover {
+	  background-color:#021f44; 
+  }
+
+.benefitsred {
+	  background-color:#002554; 
+	  height:140px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:45%;
+       border:2px white solid;
+  }
+
+.enrollred {
+	  background-color:#002554; 
+	  height:100px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+       border:2px white solid;
+  }
+
+   
+.benefitsred:hover {
+	  background-color:#021f44;
+  }
+.homered:hover {
+	  background-color:#021f44;
+  }
+
+
+.enrollred:hover {
+	  background-color:#021f44;
+  }
+
+  /* QA Box-Hover*/
+.qared {
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/question.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+
+  }
+
+
+  .qared:hover {
+	  background-color:#021f44;
+  }
+  .qared:hover .homehover{
+	display : block;
+}
+
+	.qared:hover .yourtext{
+	display : none;
+}
+ /* QA Box-Hover*/
+  .qayellow {
+	  background-color:#002554;
+	  height:360px;
+	  background-image:url("../images/question2.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+
+  }
+
+
+  .qayellow:hover {
+	  background-color:#021f44;
+  }
+  .qayellow:hover .homehover{
+	display : block;
+}
+
+	.qayellow:hover .yourtext{
+	display : none;
+}
+/*Home Page Hover*/
+ .homehover{ 
+  	font-size:18px;
+	color:#FFFFFF;
+	display:block;
+	position: absolute;
+	bottom:0px;
+	margin:5%;
+	display: none;  
+	
+}
+.homemedical:hover .homehover{
+	display : block;
+}
+
+.homemedical:hover .yourtext{
+display : none;
+}
+  
+.homefinancial {
+	  background-color:#002554;
+	  height:360px;
+	  background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+  }
+
+.homefinancial {
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+	  border-right:2px solid white;
+  }
+   .homefinancial:hover {
+	  background-color:#021f44; 
+  }  
+
+.benefitsyellow {
+	  background-color:#002554;
+	  height:140px;
+	  background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:45%;
+     border:2px white solid;
+     opacity:1.0;
+  }
+.enrollyellow {
+	  background-color:#002554;
+	  height:100px;
+	   background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+     border:2px white solid;
+  }
+  .benefitsyellow:hover {
+	  background-color:#021f44;
+  }
+
+.enrollyellow:hover {
+	  background-color:#021f44;
+  }
+
+
+.homefinancial:hover {
+	  background-color:#021f44;
+  }
+  
+.homefinancial:hover .homehover{
+	display : block;
+}
+
+.homefinancial:hover .yourtext{
+display : none;
+}
+  
+.homeblue {
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/future.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+	  border-right:2px solid white;
+  }
+.benefitsblue {
+	  background-color:#002554; 
+	  height:140px;
+	  background-image:url("../images/future.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:45%;
+      border:2px white solid;
+  }
+.enrollblue {
+	  background-color:#002554; 
+	  height:100px;
+	  	   background-image:url("../images/future.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+      border:2px white solid;
+  }
+  
+.benefitsblue:hover {
+	  background-color:#021f44; 
+  }
+
+.enrollblue:hover {
+	  background-color:#021f44; 
+  }
+  
+  .homeblue:hover {
+	  background-color:#021f44; 
+  }
+  
+  .homeblue:hover .homehover{
+	display : block;
+}
+
+.homeblue:hover .yourtext{
+display : none;
+}
+  
+  
+.homegray {
+	  background-color:#002554;
+	  height:360px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+     
+  }
+
+  .homewellness{
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+	  border-right:2px solid white;
+	 
+     
+  }
+
+  .homewellness:hover {
+	  background-color:#021f44; 
+  }  
+
+.benefitsgray {
+	  background-color:#002554;
+	  height:140px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:45%;
+      border:2px white solid;
+  }
+
+.enrollgray {
+	  background-color:#002554;
+	  height:100px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:60%;
+      border:2px white solid;
+  }
+  
+.benefitsgray:hover {
+	  background-color:#021f44;
+  }
+
+.enrollgray:hover {
+	  background-color:#021f44;
+  }
+.homewellness:hover {
+	  background-color:#021f44;
+  }
+  
+.homewellness:hover .homehover{
+	display : block;
+}
+
+.homewellness:hover .yourtext{
+display : none;
+}
+
+
+  .yourtext {
+	  font-size:56px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+
+  .yourtextlanding {
+	  font-size:24px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+	  
+  .yoursmalltext {
+	  font-size:28px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+	  
+	  
+	  @media (min-width: 992px) {
+  .yourtext {
+    font-size:48px;
+  }
+        
+   .borders-large{
+     border-left: 2px solid gray;
+     border-right: 2px solid gray;
+        }
+}
+
+@media (max-width: 991px) {
+	
+  .yourtextlanding {
+	  font-size:20px;
+  }
+	.homemedical {
+	  height:200px;
+	  background-size:40%;
+  }
+   .homefinancial {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homeblue {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homewellness {
+	  height:200px;
+	  background-size:40%;
+  }
+ 
+  
+}
+
+.navbar-toggle {
+  margin-top: 32px;
+
+}
+
+.homelower {
+	background-color: rgba(108,102,107,.1);
+	height:220px;
+	padding:24px 48px;
+	border-top: solid 6px #ffffff;
+	border-bottom: solid 6px #ffffff;
+}
+/*Remove border since .homelower .right is classed as the center and New hire/Double borders 
+.homelower.left {
+	border-right: solid 3px #ffffff;
+} */
+
+.homelower.right {
+	border-left: solid 3px #ffffff;
+}
+
+.homelower.right:hover, .homelower.left:hover, .homelower.middle:hover  {
+	background-color:rgba(232,232,232,1.00);
+}
+
+.homelower h1 {
+	font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	font-size:44px;
+	margin-bottom:0px;
+	line-height: 100%;
+	color: #002554;
+}
+
+.homelower h2 {
+	font-family: 'Conv_ITCFranklinGothicStd-BkCd', Helvetica, Arial, sans-serif;
+	font-size:20px;
+	margin-top:0px;
+	line-height: 100%;
+	color: #6c666b;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.homelower h1 {
+	font-size:42px;
+	margin-bottom:0px;
+}
+
+.homelower h2 {
+	font-size:18px;
+	margin-top:0px;
+}
+  
+ 
+}
+
+
+
+
+
+@media (max-width: 490px) {
+ .homelower h1 {
+	font-size:42px;
+    margin-left:40px;
+}
+ .homelower h2 {
+	font-size:24px;
+   margin-left:40px;
+}
+  
+  .rewind{display:block;}
+
+  .btn-inverse:hover{
+background-color:#6c666b;
+	color:#fff;}
+}
+
+
+@media (max-width: 500px) {
+
+	/*Change Size of Top Enrollment Banner (Colored)*/
+
+.banner-s{
+height:50px !important;
+	
+}
+ .homelower h1 {
+	font-size:33px;
+    margin-left:40px;
+}
+ .homelower h2 {
+	font-size:20px;
+   margin-left:40px;
+}
+  
+  .rewind{display:block;}
+
+
+.btn-inverse:hover{
+	background-color:#6c666b;
+  color:#fff;}
+
+  .logo{text-align:center;}
+  
+  .enrollblue{background-size:30%;  }
+  .enrollyellow{background-size:30%}
+  .enrollred{background-size:30%}
+  .enrollgray{background-size:30%}
+  .benefitsblue{background-size:30%}
+  .benefitsyellow{background-size:30%}
+   .benefitsred{background-size:30%}
+  .benefitsgray{background-size:30%}
+
+  }
+
+
+
+
+/*.vertcenter {
+	  position: relative;
+  top: 50%;
+  transform: translateY(-50%);}*/
+
+ 
+      

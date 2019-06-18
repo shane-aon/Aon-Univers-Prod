@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+
+<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="../../../app_themes/blankcanvas/ollies/stylesheets/bootstrap.min.css" rel="stylesheet">
+	
+		<!-- Font awesome CSS -->
+		<link href="../../../app_themes/blankcanvas/ollies/stylesheets/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="../../../app_themes/blankcanvas/ollies/stylesheets/style.css" rel="stylesheet">
+		<!-- Color Stylesheet - orange, blue, pink, brown, red or green-->
+		<link href="../../../app_themes/blankcanvas/ollies/stylesheets/red.css" rel="stylesheet"> 
+
+
+<!-- Javascript files -->
+
+		<!-- Bootstrap JS -->
+		<script src="../../../app_themes/blankcanvas/ollies/js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="../../../app_themes/blankcanvas/ollies/js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="../../../app_themes/blankcanvas/ollies/js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="../../../app_themes/blankcanvas/ollies/js/html5shiv.js"></script>
+
+</head>
+ <body>
+
+ <script>
+//Get keyvalue pair string that was set on log in page-->
+$(document).ready(function(){
+if(sessionStorage.getItem('bargain', 'pw')) {
+$('.modal-backdrop').remove();
+$('#myModal').remove();
+}
+
+else{
+
+//link back to log in
+   window.location = "https://www.benefitsquest.com/ollies/";;
+
+}
+});
+
+</script>
+
+
+
+ <script>
+            
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-33', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<!-- Navigation Start-->
+ <style type="text/css">header{display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  
+.logo{text-align:center;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;}
+
+</style>
+
+
+<header>
+          
+          <!-- Logo and site link -->
+					
+		   <div class="container">
+			  
+				<div class="logo">
+                  <a href="../../index.html">              					  
+  <img src="../../../app_themes/blankcanvas/ollies/images/ollies-yellow.png" alt="Logo-Home" class="responsive">
+  </a>    
+		       </div>
+
+
+		   </div>
+		</header>
+		<!--/ Header ends -->
+
+<div class="navbar bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+				<!-- Navigation links starts here -->
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../index.html">Home</a>
+							<!-- Submenus -->
+							
+						</li>
+						<!-- Navigation with sub menu. Please note down the syntax before you need. Each and every link is important. -->
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="../../benefits/medical-rx/index.html">Medical/RX</a></li>
+								<li><a href="../../benefits/live-healthy-program/index.html">Live Healthy Program</a></li>
+                              <li><a href="../../benefits/tobacco-cessation-program/index.html">Tobacco Cessation Program </a></li>
+								<li><a href="../../benefits/dental/index.html">Dental</a></li>
+								<li><a href="../../benefits/vision/index.html">Vision</a></li>                  
+								<li><a href="../../benefits/fsa/index.html">FSA</a></li>
+								<li><a href="../../benefits/critical-illness/index.html">Critical Illness</a></li>
+								<li><a href="../../benefits/accident-insurance/index.html">Accident Insurance</a></li>
+								<li><a href="../../benefits/disability/index.html">Disability</a></li>
+								<li><a href="../../benefits/life-ad-d/index.html">Life/AD&amp;D</a></li>
+								<li><a href="../../benefits/whole-life/index.html">Whole Life</a></li>
+                <li><a href="../../benefits/hospital-indemnity/index.html">Hospital Indemnity</a></li>
+                <li><a href="../../benefits/id-theft/index.html">InfoArmor ID Theft</a></li>
+								<li><a href="../../benefits/additional-benefits/index.html">Additional Benefits</a></li>
+                              
+							</ul>
+						</li>   
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="../../enroll-landing.html">How To Enroll</a></li>
+								<li><a href="../../enrollment/eligibility/index.html">Eligibility</a></li>
+								<li><a href="../../enrollment/rates/index.html">Rates</a></li>
+								
+							</ul>
+						</li>   
+						<li class=" active dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Important Resources <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Contacts</a></li>
+								<li><a href="../documents-forms/index.html">Documents/Forms</a></li>
+							
+							</ul>
+						</li>  
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+<!--/ Navigation Ends -->   
+
+
+<!-- Header starts -->
+
+		<!-- Content strats -->
+		<div class="content">
+			<div class="container">
+              
+              <H1>Contacts</H1>
+			<br>
+             <p class="scroll">
+               Please scroll right/left to view the table - on mobile devices.
+              </p>
+				<!-- Dental table begins -->
+				<div class="cta">
+
+<style type="text/css">/*Table Style/page inline */
+.left td{text-align:left;}
+.center{text-align:center;}
+h1{margin-left:0;} 
+.tg  {border-collapse:collapse;border-spacing:0;margin:10px auto;border-color:red;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:4px;overflow:hidden;word-break:normal;border-color:black;}
+.title{font-weight:bold;border-width:4px;text-align:center;}
+.headerz {background-color:red; color:white;border-color:black;font-weight:bold;}
+.tg th {font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:4px;overflow:hidden;word-break:normal;text-align:center;}
+.scroll {display:none;}
+ 
+
+   /*Mobile Table Scroll*/
+  @media screen and (max-width: 700px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+     p .scroll{
+      display:block;
+    }
+}
+
+
+  
+</style>
+                  
+                  <!--Begin Table-->
+<table class="tg">
+
+  <tr>
+    <th class="tg headerz">Benefit</th>
+    <th class="tg headerz">Carrier</th>
+    <th class="tg headerz">Phone Number</th>
+    <th class="tg headerz">Online</th>
+  </tr>
+ <tr>
+    <td class="tg left">Ollie’s Benefits Advocates</td>
+    <td class="tg center"></td>
+    <td class="tg center">800-544-7292<br> ext. 278 <br>ext. 280</td>
+    <td class="tg"></td>
+  </tr>  
+  <tr>
+    <td class="tg left">Medical</td>
+    <td class="tg center">Highmark Blue Shield</td>
+    <td class="tg center">800-345-3806</td>
+    <td class="tg center"><a href="https://www.highmarkblueshield.com" target="_blank">www.highmarkblueshield.com </a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Prescription Drug</td>
+    <td class="tg center">Highmark Blue Shield</td>
+    <td class="tg center">800-345-3806</td>
+    <td class="tg center"><a href="https://www.highmarkblueshield.com" target="_blank">www.highmarkblueshield.com </a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Live Healthy Wellness Program</td>
+    <td class="tg center">Highmark Blue Shield</td>
+    <td class="tg center">800-345-3806</td>
+    <td class="tg center"><a href="https://www.highmarkblueshield.com" target="_blank">www.highmarkblueshield.com </a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Dental</td>
+    <td class="tg center">United Concordia</td>
+    <td class="tg center">800-332-0366</td>
+    <td class="tg center"><a href="https://www.unitedconcordia.com" target="_blank">www.UnitedConcordia.com </a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Vision</td>
+    <td class="tg center">Highmark Blue Shield</td>
+    <td class="tg center">800-223-4795</td>
+    <td class="tg center"><a href="https://www.highmarkblueshield.com" target="_blank">www.highmarkblueshield.com </a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Flexible Spending Account (FSA)</td>
+    <td class="tg center">Ameriflex</td>
+    <td class="tg center">888-868-3539</td>
+    <td class="tg center"><a href="https://www.mywealthcareonline.com/ameriflex/" target="_blank">https://www.mywealthcareonline.com/ameriflex/</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Critical Illness Insurance</td>
+    <td class="tg center">Lincoln Financial Group</td>
+    <td class="tg center">800-423-2765</td>
+    <td class="tg center"><a href="https://www.lfg.com/public/individual" target="_blank">www.lincolnfinancial.com</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Accident Insurance</td>
+    <td class="tg center">UNUM</td>
+    <td class="tg center">800-635-5597</td>
+    <td class="tg center"><a href="https://www.unum.com/employees" target="_blank">www.unum.com/employees</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Short Term and Long Term Disability Insurance</td>
+    <td class="tg center">Sun Life Financial</td>
+    <td class="tg center">800-247-6875</td>
+    <td class="tg center"><a href="http://www.sunlife.com/us" target="_blank">www.sunlife-usa.com</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Voluntary Short Term Disability Insurance</td>
+    <td class="tg center">Unum</td>
+    <td class="tg center">800-635-5597</td>
+    <td class="tg center"><a href="http://www.unum.com/employees" target="_blank">www.unum.com/employees</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Basic, Supplemental, Spouse and Child Term Life/AD&amp;D Insurance</td>
+    <td class="tg center">Sun Life Financial</td>
+    <td class="tg center">800-247-6875</td>
+    <td class="tg center"><a href="http://www.sunlife.com/us" target="_blank">www.sunlife-usa.com</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Whole Life Insurance</td>
+    <td class="tg center">Unum</td>
+    <td class="tg center">800-635-5597</td>
+    <td class="tg center"><a href="http://www.unum.com/employees" target="_blank">www.unum.com/employees</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">401(k)Retirement Plan</td>
+    <td class="tg center">Fidelity</td>
+    <td class="tg center">800-294-4015</td>
+    <td class="tg center"><a href="https://nb.fidelity.com/public/nb/default/home" target="_blank">www.netbenefits.com</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Employee Assistance Program (EAP)</td>
+    <td class="tg center">ComPsych</td>
+    <td class="tg center">877-595-5281</td>
+    <td class="tg center"><a href="https://www.guidanceresources.com/groWeb/login/login.xhtml" target="_blank">www.guidanceresources.com </a><br>Web ID: EAPBusiness</td>
+  </tr>
+  <tr>
+    <td class="tg left">Hospital Indemnity</td>
+    <td class="tg center">Unum</td>
+    <td class="tg center">800-635-5597 </td>
+    <td class="tg center"><a href="http://www.unum.com/" target="_blank">www.unum.com</a></td>
+  </tr>
+  <tr>
+    <td class="tg left">Identity Theft Protection</td>
+    <td class="tg center">Info Armor</td>
+    <td class="tg center">800-789-2720 </td>
+    <td class="tg center"><a href="http://www.infoarmor.com/" target="_blank">www.InfoArmor.com</a></td>
+  </tr>
+    <tr>
+    <td class="tg left">Pet Insurance</td>
+    <td class="tg center">Nationwide</td>
+    <td class="tg center">877-738-7874 </td>
+    <td class="tg center"><a href="http://www.petinsurance.com/ollies" target="_blank"> www.petinsurance.com/ollies</a></td>
+  </tr>
+  
+  
+</table>
+				<!--/ CTA Ends -->
+				
+			</div>
+		</div>   
+		<!--/ Content ends --> 
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<!-- Widget 1 -->
+					<div class="widget">
+						
+					</div>
+				</div>
+				
+			  </div>
+			 </div>
+			 <div class="row">
+			  <hr />
+               <!-- Disclaimer-->
+               <div class="col-md-12"><p class="disclaimer">
+                 <p><center>This information is an overview of Ollie's benefits programs. Should there be any differences between this information and the corresponding plan document, the plan document will prevail.</center>
+                  
+                 </p>
+			</div>
+			  <div class="col-md-12"><p class="copy pull-left">
+				<!-- Copyright information. You can remove my site link. -->
+			<center>Copyright 2019 &copy; <a href="http://ollies.us/home.html" target="blank">Ollies Bargain Outlet</a> </center></p></div>
+			</div>
+
+ 
+
+     
+
+        
+
+    </body>
+</html>

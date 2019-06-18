@@ -1,0 +1,669 @@
+/*Bullets */
+
+
+.rewind{display:inline-block;}
+
+
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-MdCd';
+	src: url('../fonts/ITCFranklinGothicStd-MdCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-MdCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-MdCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-MdCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-BkCd';
+	src: url('../fonts/ITCFranklinGothicStd-BkCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-BkCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-BkCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-BkCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+body {
+  font-family: 'Conv_ITCFranklinGothicStd-BkCd', Helvetica, Arial, sans-serif;
+  font-size: 16px !important;
+
+
+}
+
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.22);
+box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.22);
+margin-bottom:0px;
+z-index:100;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e69901;
+  background-color: #fff;
+}
+
+ .navbar-nav {
+    font-size:120%;
+    margin-top: 20px;
+  }
+
+
+/*Important Resources Document Table */
+.list-group-item.active{
+	background-color: rgba(108,102,107,.1);
+    border: 2px solid #267e7c;
+    color:black;
+    font-size: 20px;
+
+}
+
+.list-group-item.active:hover{
+	background-color: rgba(108,102,107,.1);
+    border: 2px solid #267e7c;
+    color:black;
+
+
+}
+
+
+/*Galaxy Blue*/  
+.homered {
+	  background-color:#267e7c;
+	  height:360px;
+	  background-image:url("../images/icons/tr-health-icon.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:60%;
+
+  }
+
+
+.benefitsred {
+	  background-color:#054b7e; 
+	  height:140px;
+	  background-image:url("../images/icons/tr-health-icon.png");
+	  background-position: right;
+	  background-repeat:no-repeat;
+	  background-size:40%;
+       border:2px white solid;
+  }
+
+.enrollred {
+	  background-color:#bc2026; 
+	  height:100px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:30%;
+       border:2px white solid;
+  }
+
+   
+.benefitsred:hover {
+	  background-color:#096EB0; 
+  }
+.homered:hover {
+	  background-color:#309e98; 
+  }
+
+
+.enrollred:hover {
+	  background-color:#922026; 
+  }
+
+  /* QA Box-Hover*/
+  .qared {
+	  background-color:#bc2026; 
+	  height:360px;
+	  background-image:url("../images/question.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+
+  }
+
+
+  .qared:hover {
+	  background-color:#922026; 
+  }
+  .qared:hover .homehover{
+	display : block;
+}
+
+	.qared:hover .yourtext{
+	display : none;
+}
+ /* QA Box-Hover*/
+  .qayellow {
+	  background-color:#febb36; 
+	  height:360px;
+	  background-image:url("../images/question2.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+
+  }
+
+
+  .qayellow:hover {
+	  background-color:#e4992c; 
+  }
+  .qayellow:hover .homehover{
+	display : block;
+}
+
+	.qayellow:hover .yourtext{
+	display : none;
+}
+/*Home Page Hover*/
+ .homehover{ 
+  	font-size:18px;
+	color:#FFFFFF;
+	display:block;
+	position: absolute;
+	bottom:0px;
+	margin:5%;
+	display: none;  
+	
+}
+.homered:hover .homehover{
+	display : block;
+}
+
+.homered:hover .yourtext{
+display : none;
+}
+  
+.homeyellow {
+	  background-color:#c5dc73; 
+	  height:360px;
+	  background-image:url("../images/icons/tr-security-icon.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:60%;
+  }
+
+
+.benefitsyellow {
+	  background-color:#c5dc73; 
+	  height:140px;
+	  background-image:url("../images/icons/tr-security-icon.png");
+	  background-position: right;
+	  background-repeat:no-repeat;
+	  background-size:40%;
+     border:2px white solid;
+  }
+.enrollyellow {
+	  background-color:#e49934; 
+	  height:100px;
+	   background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:40%;
+     border:2px white solid;
+     opacity:0.7;
+  }
+  .benefitsyellow:hover {
+	  background-color:#FFD344; 
+  }
+
+ /*.enrollyellow:hover {
+	  background-color:#e4992c; 
+  }*/
+
+
+.homeyellow:hover {
+	  background-color:#d6ea7f; 
+  }
+  
+.homeyellow:hover .homehover{
+	display : block;
+}
+
+.homeyellow:hover .yourtext{
+display : none;
+}
+  
+.homeblue {
+	  background-color:#267e7c; 
+	  height:360px;
+	  background-image:url("../images/icons/tr-future-icon.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:60%;
+	  
+  }
+.benefitsblue {
+	  background-color:#054b7e; 
+	  height:140px;
+	  background-image:url("../images/perdue/icons/tr-future-icon.png");
+	  background-position: right;
+	  background-repeat:no-repeat;
+	  background-size:40%;
+      border:2px white solid;
+  }
+.enrollblue {
+	  background-color:#499bd1; 
+	  height:100px;
+	  background-image:url("../images/future.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:40%;
+      border:2px white solid;
+  }
+  
+.benefitsblue:hover {
+	  background-color:#096EB0; 
+  }
+
+.enrollblue:hover {
+	  background-color:#021f44; 
+  }
+  
+.homeblue:hover {
+	  background-color:#309e98; 
+  }
+  
+.homeblue:hover .homehover{
+	display : block;
+}
+
+.homeblue:hover .yourtext{
+display : none;
+}
+  
+  
+.homegray {
+	  background-color:#c5dc73; 
+	  height:360px;
+	  background-image:url("../images/icons/tr-wellness-icon.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:60%;
+     
+  }
+
+.homewellness{
+	  background-color:#002554; 
+	  height:360px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:80%;
+	  border-right:2px solid white;
+	  border-left:2px solid white;
+     
+  }
+
+.homewellness:hover {
+	  background-color:#021f44; 
+  }  
+
+.benefitsgray {
+	  background-color:#ffc815; 
+	  height:140px;
+	  background-image:url("../images/icons/tr-wellness-icon.png");
+	  background-position: right;
+	  background-repeat:no-repeat;
+	  background-size:35%;
+      border:2px white solid;
+  }
+
+.enrollgray {
+	  background-color:#6c666b; 
+	  height:100px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:30%;
+      border:2px white solid;
+  }
+  
+.benefitsgray:hover {
+	  background-color:#FFD344; 
+  }
+
+.enrollgray:hover {
+	  background-color:#5a5759; 
+  }
+.homegray:hover {
+	  background-color:#d6ea7f; 
+  }
+  
+.homegray:hover .homehover{
+	display : block;
+}
+
+.homegray:hover .yourtext{
+display : none;
+}
+
+
+  .yourtext {
+	  font-size:56px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+
+  .yourtextlanding {
+	  font-size:24px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+	  
+  .yoursmalltext {
+	  font-size:22px;
+	  font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	  color:#FFFFFF;
+	  line-height:90%;
+	  display:block;
+	  position: absolute;
+	  bottom:0px;
+	  margin:5%;
+	  
+	  }
+	  
+	  
+	  @media (min-width: 992px) {
+  .yourtext {
+    font-size:42px;
+  }
+        
+   .borders-large{
+     border-left: 2px solid gray;
+     border-right: 2px solid gray;
+        }
+}
+
+@media (max-width: 991px) {
+	
+  .yourtextlanding {
+	  font-size:20px;
+  }
+	.homered {
+	  height:200px;
+	  background-size:40%;
+  }
+   .homeyellow {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homeblue {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homegray {
+	  height:200px;
+	  background-size:40%;
+  }
+ 
+  
+}
+
+.navbar-toggle {
+  margin-top: 32px;
+
+}
+
+.homelower {
+	background-color: rgba(108,102,107,.1);
+	height:220px;
+	padding:24px 48px;
+	border: solid 2px #ffffff;
+	
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.16);
+}
+/*Remove border since .homelower .right is classed as the center and New hire/Double borders 
+.homelower.left {
+	border-right: solid 3px #ffffff;
+} */
+
+.homelower.right {
+	
+}
+
+.homelower.right:hover, .homelower.left:hover, .homelower.middle:hover  {
+	background-color:rgba(232,232,232,1.00);
+}
+
+.homelower h1 {
+	font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+	font-size:44px;
+	margin-bottom:0px;
+	line-height: 100%;
+	color: #267e7c;
+}
+
+.homelower h2 {
+	font-family: 'Conv_ITCFranklinGothicStd-BkCd', Helvetica, Arial, sans-serif;
+	font-size:20px;
+	margin-top:0px;
+	line-height: 100%;
+	color: #6c666b;
+}
+
+
+
+
+/******Galaxy Design*******/
+
+/*Gray Callout Bo*/
+.callout{
+	background-color:rgba(108,102,107,.1);
+	border:2px solid #267e7c;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.callout-btn{
+	background-color:rgba(108,102,107,.1);
+	border:2px solid #267e7c;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.h4c{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:0px;
+}
+
+
+/*Enroll Now Button*/
+/*=======================================================
+      BTN STYLE
+========================================================*/
+/*=======================================================
+      BTN STYLE
+========================================================*/
+#enroll button{
+  background:#267e7c;
+  color:white;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin-bottom:15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#enroll button:hover{
+  background:rgba(108,102,107,.1);;
+  color:#267e7c;
+}
+#enroll button:before,#enroll button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #267e7c;
+  transition:400ms ease all;
+}
+#enroll button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+#enroll button:hover:before,#enroll button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+/* Galaxy Blue*/
+.p-blue{
+
+	color:#267e7c;
+	font-weight: bold;
+}
+
+.elevate{
+   
+    transition: transform .2s ease, box-shadow .2s ease; 
+
+    }
+
+.elevate:hover{
+
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.48), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.w-topic{
+
+	color:#054b7e;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+
+	color:#267e7c;
+}
+
+
+/**Galaxy Button Default**/
+.btn-default{
+
+background-color: rgba(108,102,107,.1) ;
+color:#267e7c;
+border:2px solid #267e7c;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+/** Dropdown Toggle For Wellness Center Recolored*/
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+
+background-color: rgba(108,102,107,.1);
+color:#267e7c;
+border:2.4px solid #267e7c;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.homelower h1 {
+	font-size:42px;
+	margin-bottom:0px;
+}
+
+.homelower h2 {
+	font-size:18px;
+	margin-top:0px;
+}
+  
+ 
+}
+
+
+
+
+
+@media (max-width: 490px) {
+ .homelower h1 {
+	font-size:42px;
+    margin-left:40px;
+}
+ .homelower h2 {
+	font-size:24px;
+   margin-left:40px;
+}
+  
+  .rewind{display:block;}
+
+  .btn-inverse:hover{
+background-color:#6c666b;
+	color:#fff;}
+}
+
+
+@media (max-width: 500px) {
+ .homelower h1 {
+	font-size:33px;
+    margin-left:40px;
+}
+ .homelower h2 {
+	font-size:20px;
+   margin-left:40px;
+}
+  
+  .rewind{display:block;}
+
+
+.btn-inverse:hover{
+	background-color:#6c666b;
+  color:#fff;}
+
+  .logo{text-align:center;}
+  
+  .enrollblue{background-size:30%;  }
+  .enrollyellow{background-size:30%}
+  .enrollred{background-size:30%}
+  .enrollgray{background-size:30%}
+
+
+  }
+
+
+
+
+
+ 
+      

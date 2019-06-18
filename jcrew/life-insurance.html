@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="robots" content="noindex">
+    <title>J.CREW</title>
+    <!-- Bootstrap CSS -->
+  
+  <link href="StyleSheets/colorbox.css" rel="stylesheet">
+  <link href="StyleSheets/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+  <link href="StyleSheets/font-awesome.min.css" rel="stylesheet">
+    <!-- MAIN CSS -->
+  <link href="StyleSheets/style.css" rel="stylesheet">
+
+  
+  <script src="js/jquery.min.js"></script>
+  
+  <!--Colorbox-->
+ <script src="js/jquery.colorbox.js"></script>
+ <script src="js/jquery.colorbox-min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootbox.min.js"></script>
+
+ <script>
+
+
+      $(document).ready(function(){
+        //Examples of how to assign the Colorbox event to elements
+        $(".group1").colorbox({rel:'group1'});
+        $(".group2").colorbox({rel:'group2', transition:"fade"});
+        $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+        $(".group4").colorbox({rel:'group4', slideshow:true});
+        $(".ajax").colorbox();
+        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+        $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+        $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+        $(".inline").colorbox({inline:true, width:"50%"});
+        $(".callbacks").colorbox({
+          onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+          onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+          onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+          onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+          onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+        });
+
+        $('.non-retina').colorbox({rel:'group5', transition:'none'})
+        $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+        
+        //Example of preserving a JavaScript event for inline calls.
+        $("#click").click(function(){ 
+          $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+          return false;
+        });
+      });
+    </script>
+  </head>
+  
+  <body>
+    <!-- START PAGE -->
+   
+<div class="page">
+      <div class="container">
+
+        <!-- START HEADER -->
+        <header class="header">
+          <div class="row">
+            <div class="col-sm-6 logo">
+              <a href="index.html"><img src="Images/logo.png" alt="J.CREW"></a>
+            </div>
+            <div class="col-sm-6 enroll">
+             BENEFITS 2017
+            </div>
+          </div>
+        </header>
+
+        <!-- START NAV -->
+        <div class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                 <li><a href="index.html">Home</a></li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="benefits-overview.html">Overview</a></li>
+                    <li><a href="benefit-highlights.html">Benefit Highlights</a></li>
+                    <li class="dropdown-submenu"><a href="healthplan" class="dropdown-toggle" data-toggle="dropdown">Health Plan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="healthplan-overview.html">Overview</a></li>
+                        <li><a href="medical-plan-summary.html">Medical Plan Summary</a></li>
+                        <li><a href="prescription-drug-plan.html">Prescription Drug Plan</a></li>
+                      <!--  <li><a href="right-plan-for-you">The Right Plan for You</a></li>-->
+                        <li><a href="total-cost-of-healthcare.html">Total Cost of Health Care</a></li>
+                        <li><a href="how-to-save-on-healthcare.html">How to Save</a></li>
+                        <li><a href="tobacco.html">Tobacco Free Incentive</a></li>
+                        <li><a href="consumer-choice-hsa.html">Consumer Choice + HSA</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="dental.html">Dental Plan</a></li>
+                    <li><a href="vision.html">Vision Plan</a></li>
+                    <li><a href="flexible-spending-account.html">Flexible Spending Account</a></li>
+
+                    <li><a href="critical-illness-insurance.html">Critical Illness Insurance</a></li>
+                    <li><a href="hospital-indemnity-insurance.html">Hospital Indemnity Insurance</a></li>
+                    <li><a href="disability-insurance.html">Disability Insurance</a></li>
+                    <li><a href="life-insurance.html">Life Insurance</a></li>
+                     <li><a href="401k.html">401k</a></li>
+                    <li><a href="other-benefits.html">Other Benefits</a></li>
+                    <li><a href="terms-to-know.html">Benefit Terms to Know</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="enrollment-overview.html">Overview</a></li>
+                    <li><a href="how-to-enroll.html">How To Enroll</a></li> 
+										<li><a href="premiums.html">Premiums</a></li>
+                  </ul>
+                </li>
+                <li><a href="important-contact-information.html">Contacts</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+
+        
+        <!-- START CONTENT AREA -->
+        <section class="content-area">
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-sm-3">
+              <div class="sidebar">
+                <h3 class="title">LIFE INSURANCE</h3>
+              </div>
+            </div>
+            <!-- Article -->
+            <div class="col-sm-9">
+              <div class="article">
+                <p>You automatically receive Basic Life and Accidental Death & Dismemberment (AD&D) coverage at no cost to you. This coverage is administered by The Hartford. Eligibility begins the first of the month after 30 days of active employment.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-sm-3">
+              <div class="sidebar">
+                <div class="widget">
+                  <h5><strong>TAKE YOUR LIFE INSURANCE AND AD&D WITH YOU</strong></h5>
+                  <p>If you leave J.Crew or if you have a status change and are no longer eligible for coverage, you have the option of continuing coverage for you and your dependents through an individual policy.</p>
+                  <p>You must apply within 31 days of the date coverage ends.</p>
+                  <p>Contact Human Resources (see Contacts page) or The Hartford for more information.</p>
+                </div>
+                
+                <div class="widget">
+                  <center>
+                  <h5><strong>CLICK BELOW FOR A LIST OF HELPFUL VIDEOS</strong></h5>
+                  <p><a class='iframe' href="https://www.thehartford.com/employee-benefits/employees?overlay=1444591005939">Video 1</a></p> 
+           <p><a class='iframe' href="https://hgv.jellyvision-conversation.com/?i=ce9feb2e7f522111db0226e5&amp;preview=1">Video 2</a></p> 
+                  <hr style="border-color:white;">
+<a href="https://www.thehartford.com/dm/coverageadvisor/life.html" target="blank">Click here for help calculating the amount of coverage that is right for you.</a><br><br></center>
+                </div>
+              </div>
+            </div>
+            <!-- Article -->
+            <div class="col-sm-9">
+              <div class="article">
+                <h4 style="margin-top:14px;">BASIC LIFE INSURANCE</h4>
+                <p>You receive Basic Life Insurance equal to two times your base annual salary, up to $500,000.</p>
+
+                <h4>BASIC ACCIDENTAL DEATH & DISMEMBERMENT (AD&D)</h4>
+                <p>You receive a benefit equal to two times your base annual salary, up to $500,000. If your accident results in a loss of hearing, speech or eyesight, or a hand, foot or limb, your benefit is a percentage of the Basic Life Insurance amount.</p>
+
+                <h4>SUPPLEMENTAL LIFE INSURANCE</h4>
+                <p>You can add to the company-paid basic term life coverage by purchasing supplemental life insurance. You can choose a benefit amount of one to five times your annual base salary up to $500,000 (coverage is guaranteed for up to $300,000, which means a medical exam is not required on a benefit up to that amount).</p>
+                <div class="table-responsive tshadow" style="margin:15px 0;">
+                  <table class="table xtable">
+                    <thead>
+                      <tr>
+                        <td class="text-center">AGE</td>
+                        <td class="text-center">MONTHLY PREMIUM PER <br>
+                          $1,000 BENEFIT <br>
+                          AMOUNT</td>
+                        <td class="white">&nbsp;</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="border-right:1px solid #b99a87" width="120" align="center" class="lightbrwnclr">&lt;25 <br><br>
+                          25-29 <br><br>
+                          30-34 <br><br>
+                          35-39 <br><br>
+                          40-44 <br><br>
+                          45-49 <br><br>
+                          50-54 <br><br>
+                          55-59 <br><br>
+                          60-64 <br><br>
+                          65-69 <br><br>
+                          70-74 <br><br>
+                          75+ </td>
+                        <td width="220" align="center" class="lightbrwnclr">$0.05 <br><br>
+                          $0.06 <br><br>
+                          $0.08 <br><br>
+                          $0.09 <br><br>
+                          $0.10 <br><br>
+                          $0.15 <br><br>
+                          $0.23 <br><br>
+                          $0.43 <br><br>
+                          $0.66 <br><br>
+                          $1.27 <br><br>
+                          $2.06 <br><br>
+                          $5.40 </td>
+                        <td align="center" style="padding:0px 80px;border-top:none;"><table class="table noborder">
+                          <tbody style="font-weight:bold;">
+                            <tr>
+                              <td colspan="2"><span>Example:</span></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">A 34 year-old earning $45,000, choosing to purchase an additional two times their annual salary:</td>
+                            </tr>
+                            <tr>
+                              <td><span>2 x $45,000</span></td>
+                              <td><span>= $90,000</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>$90,000 /1,000</span></td>
+                              <td><span>= 90</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>$0.08 x 90</span></td>
+                              <td><span>= $7.20 monthly</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>$7.20 x 12</span></td>
+                              <td><span>= $86.40 annually</span></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" class="borderline">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td><span>$86.40 / 52 weeks</span></td>
+                              <td><span>= $1.66 per pay period (weekly)</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>$86.40 / 26 weeks</span></td>
+                              <td><span>= $3.32 per pay period (biweekly)</span></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">The premium for an additional $90,000 in life insurance coverage is <span style="display:inline;">$86.40 per year.</span></td>
+                            </tr>
+                          <tbody>
+                        </table></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                
+                <h4>DEPENDENT LIFE INSURANCE FOR YOUR FAMILY</h4>
+                <p>You may purchase life insurance on an after-tax basis for your spouse, and your child(ren) up to age 26. Life insurance for your family pays you—the beneficiary—upon their death.</p>
+                <p>You can purchase coverage on your spouse up to $20,000.</p>
+                <p>The same age-banded rates apply to spouse coverage. (Rate is based on the associate’s age.)</p>
+                <p>You can purchase coverage for your child(ren) in the amount of $2,000 or $4,000 per child.</p>
+             
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- START FOOTER -->
+        <footer class="footer">
+            <a href="notices.html">Notices</a> &copy; 2016 J.CREW
+        </footer>
+
+      </div><!-- END CONTAINER -->
+    </div><!-- END PAGE -->
+
+
+<!-- jQuery -->
+
+<!--Toggle Dropdown script-->
+<script type="text/javascript">
+      (function($){
+        $(document).ready(function(){
+          $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+            $(this).parent().siblings().removeClass('open');
+            $(this).parent().toggleClass('open');
+          });
+        });
+      });
+</script>
+      
+    <!--Submenu Delay-->  
+      
+<script>
+jQuery('ul.nav li.dropdown').hover(function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+            }, function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+            });
+
+</script>
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-44', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

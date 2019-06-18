@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+
+<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/bootstrap.min.css" rel="stylesheet">
+	
+		<!-- Font awesome CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/style.css" rel="stylesheet">
+		<!-- Color Stylesheet - orange, blue, pink, brown, red or green-->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/red.css" rel="stylesheet"> 
+
+
+<!-- Javascript files -->
+
+		<!-- Bootstrap JS -->
+		<script src="../app_themes/blankcanvas/ollies/js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="../app_themes/blankcanvas/ollies/js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="../app_themes/blankcanvas/ollies/js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="../app_themes/blankcanvas/ollies/js/html5shiv.js"></script>
+
+</head>
+ <body>
+
+ <style>
+ #submit-btn{margin-top:18px;}
+ .head{margin-bottom:25px;margin-right:3px;}
+
+ .modal-content{border-radius:10px;}
+
+
+
+
+        </style>
+ <!-- Session Storage Refresh-Blocks Users From accessing page without validating credentials-->
+ 
+
+
+ <script>
+            
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-33', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+if(sessionStorage.getItem('bargain', 'pw')) {
+$('.modal-backdrop').remove();
+$('#myModal').remove();
+}
+
+
+});
+
+</script>
+
+
+<header>
+          
+          <!-- Logo and site link -->
+					
+		   <div class="container">
+			  
+				<div class="logo">
+					<a href="index.html">              					  
+  						<img src="../app_themes/blankcanvas/ollies/images/ollies-yellow.png" alt="Logo-Home" class="responsive" >
+ 					 </a>    
+		       </div>
+
+
+		   </div>
+</header>
+
+
+		<!--/ Header ends -->
+
+<div class="navbar bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+				<!-- Navigation links starts here -->
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html#">Home</a>
+							<!-- Submenus -->
+							
+						</li>
+						<!-- Navigation with sub menu. Please note down the syntax before you need. Each and every link is important. -->
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="benefits/medical-rx/index.html">Medical/RX</a></li>
+								<li><a href="benefits/live-healthy-program/index.html">Live Healthy Program</a></li>
+                              <li><a href="benefits/tobacco-cessation-program/index.html">Tobacco Cessation Program </a></li>
+								<li><a href="benefits/dental/index.html">Dental</a></li>
+								<li><a href="benefits/vision/index.html">Vision</a></li>                  
+								<li><a href="benefits/fsa/index.html">FSA</a></li>
+								<li><a href="benefits/critical-illness/index.html">Critical Illness</a></li>
+								<li><a href="benefits/accident-insurance/index.html">Accident Insurance</a></li>
+								<li><a href="benefits/disability/index.html">Disability</a></li>
+								<li><a href="benefits/life-ad-d/index.html">Life/AD&amp;D</a></li>
+								<li><a href="benefits/whole-life/index.html">Whole Life</a></li>
+								<li><a href="benefits/hospital-indemnity/index.html">Hospital Indemnity</a></li>
+								<li><a href="benefits/id-theft/index.html">InfoArmor ID Theft</a></li>
+								<li><a href="benefits/additional-benefits/index.html">Additional Benefits</a></li>
+                               
+							</ul>
+						</li>   
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="enroll-landing.html">How To Enroll</a></li>
+								<li><a href="enrollment/eligibility/index.html">Eligibility</a></li>
+								<li><a href="enrollment/rates/index.html">Rates</a></li>
+								
+							</ul>
+						</li>   
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Important Resources <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="important-documents/contacts/index.html">Contacts</a></li>
+								<li><a href="important-documents/documents-forms/index.html">Documents/Forms</a></li>
+							
+							</ul>
+						</li>  
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+
+
+<!-- Header starts -->
+
+		<!-- Content strats -->
+		<div class="content">
+			<div class="container">
+
+<div class="modal-backdrop in"></div>
+						
+ <div class="modal in show " id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+    
+      <div class="modal-content">
+        	<div class="modal-header">
+          
+         			 <h3>Sign In to <span class="color">Benefits Panel</span></h3>    
+        	</div>
+      	  <div class="modal-body">
+          
+        		<div class="logreg-page centerblock">
+                                            
+                   
+							<legend> Ollies Bargain Outlet </legend>
+								
+							<label for="Password">Password</label>
+							<input id="exampleInputPassword1" class="form-control" type="password" name="password" autocomplete="off">
+                            <input align="center" type="button" data-dismiss="modal" value="Submit" id="submit-btn" class="btn btn-default">
+        		</div>
+
+     	   </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+			
+				<!-- CTA starts -->
+				<div class="cta">
+
+
+
+
+				   <div class="row">
+
+
+					  <div class="col-md-9">
+
+					  		<h1>Welcome to Ollie's Benefit Portal</h1>
+					  		<!--<h3 style="color:red;">May 20 - May 31, 2019 </h3>-->
+				
+					  
+
+
+						 <!-- Second line -->
+						 <p class="cbig">This website is designed to provide you with the information about the coverage options available to you and your family for the 2019-2020 plan year.</p>
+
+						 	
+						 	<center><a href="Ollies NH Guide FINAL.pdf" target="_blank"><button type="button" class="button" ><span><b>2019-2020 Benefits Guide</b></span></button></a><br>
+
+
+						 		<!--<p class="csmall cta"><b>Ollie's Enrollment Portal is currently under construction. <br>Please refer back to this website at a later date.</b></p> <br>-->
+
+						 	<!--Show/Hide-->
+
+							<!--<p class="cbig">For those newly benefit eligible Associates that have received special enrollment instructions; click the button below:</p>
+
+							<a href="enroll-landing.html"><button type="button" class="button" ><span><b>Newly Benefit Eligible </b></span></button></a><br><br>-->
+
+
+							
+
+
+						 	
+						 	
+
+					<p>	<b>Get started by clicking on a link above to learn about your benefit options and enrollment instructions. </b></p></center>
+					  </div>
+					     <div class="col-md-2">
+                           
+                     
+						 <!-- Ollies Head Logo? -->
+						     <div class="afeature">
+                              
+                                 <img class="head" src="../app_themes/blankcanvas/ollies/images/olliehead3.png" alt="Logo-Home" height="" width="">
+
+                             </div>
+                         </div>
+                       </div>                      
+						 
+			    </div>
+	
+				<!--/ CTA Ends -->
+				
+			</div>
+		</div>   
+		<!--/ Content ends --> 
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<!-- Widget 1 -->
+					<div class="widget">
+						
+					</div>
+				</div>
+				
+			  </div>
+			 </div>
+			 <div class="row">
+			  <hr />
+               <!-- Disclaimer-->
+                <div class="col-md-12"><p class="disclaimer">
+                 <p><center>This information is an overview of Ollie's benefits programs. Should there be any differences between this information and the corresponding plan document, the plan document will prevail.</center>
+                  
+                 </p>
+			   </div>
+			  <div class="col-md-12"><p class="copy pull-left">
+				<!-- Copyright information. You can remove my site link. -->
+			<center>Copyright 2019 &copy; <a href="http://ollies.us/home.html" target="blank">Ollies Bargain Outlet</a> </center></p>
+			</div>
+			</div>
+
+
+
+<!--<p class="cbig"><b>Open Enrollment:</b></p>
+							
+							<a href="https://enroll.univers.biz/Univers/Account/Login?q=tl%2F4%2F0uCZrHw3n00IrhCbtvffhQrKKqWsYYye32Ymy8%3D" target="_blank"><button type="button" class="button" ><span><b> Enroll Now</b></span></button></a>	<br>-->			
+          
+          
+          
+          <!--center title/logo CSS-->
+ <style type="text/css">h1{margin-left:0;}
+.logo{text-align:center;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;}
+header{display: block;
+    margin-left: auto;
+    margin-right: auto; }
+</style>
+
+
+
+<script>
+
+
+//Password Emulator Logic
+
+$("#submit-btn").click(function() {
+  var pWord = $("#exampleInputPassword1").val();
+  if (pWord != "bargain") {
+    
+    alert("You entered an incorrect password, please try again.");
+  }
+  else {
+  
+                $('.modal-backdrop').remove();
+                $('#myModal').remove();
+               
+       
+    sessionStorage.setItem('bargain', 'pw');
+    localStorage.setItem('bargain','pw');
+     
+    
+    
+  }
+  
+});
+   
+// all jQuery events are executed within the document ready function
+   //The following code validates the above function on "ENTER" clicks
+$(document).ready(function() {
+
+   $("input").bind("keydown", function(event) {
+      // track enter key
+      var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
+      if (keycode == 13) { // keycode for enter key
+         // force the 'Enter Key' to implicitly click the Update button
+         document.getElementById('submit-btn').click();
+         return false;
+      } else  {
+         return true;
+      }
+   }); // end of function
+
+}); // end of document ready   
+           </script>
+
+          
+
+          
+
+
+    </body>
+</html>

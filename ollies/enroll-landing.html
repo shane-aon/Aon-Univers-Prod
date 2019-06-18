@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+
+<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/bootstrap.min.css" rel="stylesheet">
+	
+		<!-- Font awesome CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/style.css" rel="stylesheet">
+		<!-- Color Stylesheet - orange, blue, pink, brown, red or green-->
+		<link href="../app_themes/blankcanvas/ollies/stylesheets/red.css" rel="stylesheet"> 
+
+
+<!-- Javascript files -->
+
+		<!-- Bootstrap JS -->
+		<script src="../app_themes/blankcanvas/ollies/js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="../app_themes/blankcanvas/ollies/js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="../app_themes/blankcanvas/ollies/js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="../app_themes/blankcanvas/ollies/js/html5shiv.js"></script>
+
+</head>
+ <body>
+
+ <style>
+ #submit-btn{margin-top:18px;}
+ .head{margin-bottom:25px;margin-right:3px;}
+
+ .modal-content{border-radius:10px;}
+
+
+
+
+        </style>
+
+
+
+ <script>
+            
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-33', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ <script>
+//Get keyvalue pair string that was set on log in page-->
+$(document).ready(function(){
+if(sessionStorage.getItem('bargain', 'pw')) {
+$('.modal-backdrop').remove();
+$('#myModal').remove();
+}
+
+else{
+
+//link back to log in
+   window.location = "https://www.benefitsquest.com/ollies/";;
+
+}
+});
+
+</script>
+
+
+
+<header>
+          
+          <!-- Logo and site link -->
+					
+		   <div class="container">
+			  
+				<div class="logo">
+					<a href="index.html">              					  
+  						<img src="../app_themes/blankcanvas/ollies/images/ollies-yellow.png" alt="Logo-Home" class="responsive" >
+ 					 </a>    
+		       </div>
+
+
+		   </div>
+</header>
+
+
+		<!--/ Header ends -->
+
+<div class="navbar bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+				<!-- Navigation links starts here -->
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html#">Home</a>
+							<!-- Submenus -->
+							
+						</li>
+						<!-- Navigation with sub menu. Please note down the syntax before you need. Each and every link is important. -->
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="benefits/medical-rx/index.html">Medical/RX</a></li>
+								<li><a href="benefits/live-healthy-program/index.html">Live Healthy Program</a></li>
+                              <li><a href="benefits/tobacco-cessation-program/index.html">Tobacco Cessation Program </a></li>
+								<li><a href="benefits/dental/index.html">Dental</a></li>
+								<li><a href="benefits/vision/index.html">Vision</a></li>                  
+								<li><a href="benefits/fsa/index.html">FSA</a></li>
+								<li><a href="benefits/critical-illness/index.html">Critical Illness</a></li>
+								<li><a href="benefits/accident-insurance/index.html">Accident Insurance</a></li>
+								<li><a href="benefits/disability/index.html">Disability</a></li>
+								<li><a href="benefits/life-ad-d/index.html">Life/AD&amp;D</a></li>
+								<li><a href="benefits/whole-life/index.html">Whole Life</a></li>
+								<li><a href="benefits/hospital-indemnity/index.html">Hospital Indemnity</a></li>
+								<li><a href="benefits/id-theft/index.html">InfoArmor ID Theft</a></li>
+								<li><a href="benefits/additional-benefits/index.html">Additional Benefits</a></li>
+                               
+							</ul>
+						</li>   
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="../../enroll-landing.html">How To Enroll</a></li>
+								<li><a href="enrollment/eligibility/index.html">Eligibility</a></li>
+								<li><a href="enrollment/rates/index.html">Rates</a></li>
+								
+							</ul>
+						</li>   
+						<li class="dropdown">
+							<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Important Resources <b class="caret"></b></a>
+							<!-- Submenus -->
+							<ul class="dropdown-menu">
+								<li><a href="important-documents/contacts/index.html">Contacts</a></li>
+								<li><a href="important-documents/documents-forms/index.html">Documents/Forms</a></li>
+							
+							</ul>
+						</li>  
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+
+
+<!-- Header starts -->
+
+		<!-- Content strats -->
+		<div class="content">
+			<div class="container">
+
+
+
+				   <div class="row">
+
+
+					  <div class="col-md-6 col-sm-6">
+								
+								
+									
+								<div class="panel panel-default" style="height:225px;">
+								  <div class="panel-heading">
+								    <h3><span style="color:red;">Newly Hired Associates</span> 
+								  </div>
+								  <div class="panel-body">
+								    <h4>To enroll in your New Hire benefits, click below.</h4> <br>
+
+								   <center> <a href="https://uenroll.net/OlliesBargainOutlet20182019/" target="_blank"><button type="button" class="button" ><span><b> Enroll Now</b></span></button></a></center>
+								  </div>
+								</div>
+
+								
+
+						
+                       </div>  
+
+					  <div class="col-md-6 col-sm-6">
+								
+								
+									
+								<div class="panel panel-default" style="height:225px;">
+								  <div class="panel-heading">
+								    <h3><span style="color:red;">Open Enrollment</span> 
+								  </div>
+								  <div class="panel-body">
+								    <h4> Ollie's Enrollment Portal is currently under construction. Please refer back to this website at a later date.</h4> <br>
+
+										<!--<center><a href="https://enroll.univers.biz/Univers/Account/Login?q=tl%2F4%2F0uCZrHw3n00IrhCbtvffhQrKKqWsYYye32Ymy8%3D" target="_blank"><button type="button" class="button" ><span><b> Enroll Now</b></span></button></a></center>-->
+
+								  </div>
+								</div>
+
+								
+
+						
+                       </div>                                             
+						 
+		
+				
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cta">
+						<p>Review your enrollment materials carefully, including this benefits website, and the <a href="Ollies NH Guide FINAL.pdf" target="_blank">2019-2020 Benefit Guide</a>.  <br> <br>
+
+						<i>To enroll in benefits, have your personal, dependent and beneficiary information ready. You will need full names, dates of birth and Social Security Numbers of your dependent(s).</i> <br> <br>
+
+						<b>If your benefits are effective on the 2nd day of continuous employment</b>, you have 30 days from your date of hire to enroll in benefits.  <br> <br>
+
+						<b>If your benefits are effective on the 91st day of continuous employment,</b> your enrollment period begins on your 60th day of employment and ends on your benefits effective date.</p> <br>
+					</div>
+				</div>
+			</div>
+		</div>   
+		<!--/ Content ends --> 
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<!-- Widget 1 -->
+					<div class="widget">
+						
+					</div>
+				</div>
+				
+			  </div>
+			 </div>
+			 <div class="row">
+			  <hr />
+               <!-- Disclaimer-->
+                <div class="col-md-12"><p class="disclaimer">
+                 <p><center>This information is an overview of Ollie's benefits programs. Should there be any differences between this information and the corresponding plan document, the plan document will prevail.</center>
+                  
+                 </p>
+			   </div>
+			  <div class="col-md-12"><p class="copy pull-left">
+				<!-- Copyright information. You can remove my site link. -->
+			<center>Copyright 2019 &copy; <a href="http://ollies.us/home.html" target="blank">Ollies Bargain Outlet</a> </center></p>
+			</div>
+			</div>
+          
+          
+          
+          <!--center title/logo CSS-->
+ <style type="text/css">h1{margin-left:0;}
+.logo{text-align:center;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;}
+header{display: block;
+    margin-left: auto;
+    margin-right: auto; }
+</style>
+
+
+
+<script>
+
+
+//Password Emulator Logic
+
+$("#submit-btn").click(function() {
+  var pWord = $("#exampleInputPassword1").val();
+  if (pWord != "bargain") {
+    
+    alert("You entered an incorrect password, please try again.");
+  }
+  else {
+  
+                $('.modal-backdrop').remove();
+                $('#myModal').remove();
+               
+       
+    sessionStorage.setItem('bargain', 'pw');
+    localStorage.setItem('bargain','pw');
+     
+    
+    
+  }
+  
+});
+   
+// all jQuery events are executed within the document ready function
+   //The following code validates the above function on "ENTER" clicks
+$(document).ready(function() {
+
+   $("input").bind("keydown", function(event) {
+      // track enter key
+      var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
+      if (keycode == 13) { // keycode for enter key
+         // force the 'Enter Key' to implicitly click the Update button
+         document.getElementById('submit-btn').click();
+         return false;
+      } else  {
+         return true;
+      }
+   }); // end of function
+
+}); // end of document ready   
+           </script>
+
+          
+
+          
+
+
+    </body>
+</html>

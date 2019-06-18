@@ -1,0 +1,272 @@
+
+
+
+/*Landing page Image Squares*/
+.imagesred {
+	 
+	  height:150px;
+	  background-image:url("../images/family.png");
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+
+ .images4 {
+	 
+	  height:160px;
+	  background-image:url("../images/family1.png");
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+
+
+.imagesyellow {
+	 
+	  height:150px;
+	  background-image:url("../images/gym.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+.imagesblue {
+	 
+	  height:150px;
+	  background-image:url("../images/doctor.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+.imagesgray {
+	 
+	  height:150px;
+	  background-image:url("../images/gym2.png");
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:100%;
+       border:2px white solid;
+  }
+
+
+
+
+/*Font*/
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-MdCd';
+	src: url('../fonts/ITCFranklinGothicStd-MdCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-MdCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-MdCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-MdCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ITCFranklinGothicStd-BkCd';
+	src: url('../fonts/ITCFranklinGothicStd-BkCd.eot');
+	src: local('☺'), url('../fonts/ITCFranklinGothicStd-BkCd.woff') format('woff'), url('../fonts/ITCFranklinGothicStd-BkCd.ttf') format('truetype'), url('../fonts/ITCFranklinGothicStd-BkCd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+  font-family: 'Conv_ITCFranklinGothicStd-BkCd', Helvetica, Arial, sans-serif;
+
+}
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+margin-bottom:0px;
+z-index:100;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e69901;
+  background-color: #fff;
+}
+
+ .navbar-nav {
+    font-size:150%;
+  }
+
+
+.yourtextlanding {
+    font-size: 21px;
+    font-family: 'Conv_ITCFranklinGothicStd-MdCd', Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    line-height: 90%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    margin: 4% !important;
+    
+    white-space: wrap; 
+    
+
+    }
+
+
+.benefitsred {
+	  background-color:#002554; 
+	  height:140px;
+	  background-image:url("../images/medical.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:35%;
+       border:2px white solid;
+  }
+
+
+
+/* Hover Animation Text*/
+ .homehover{ 
+  	font-size:18px;
+	color:#FFFFFF;
+	display:block;
+	position: absolute;
+	bottom:0px;
+	margin:5%;
+	display: none;  
+	
+}
+.benefitsred:hover .homehover{
+	display : block;
+}
+
+.benefitsred:hover .yourtextlanding{
+display : none;
+}
+
+.benefitsyellow {
+      background-color:#002554;
+	  height:140px;
+	  background-image:url("../images/financial.png");
+	  background-position: top left;
+	  background-repeat:no-repeat;
+	  background-size:35%;
+     border:2px white solid;
+  }
+
+
+/*.benefitsyellow:hover .homehover{
+	display : block;
+}
+
+.benefitsyello:hover .yourtextlanding{
+
+display: none;
+}
+*/
+  
+
+.benefitsblue {
+	  background-color:#002554; 
+	  height:140px;
+	  background-image:url("../images/future.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:35%;
+      border:2px white solid;
+  }
+
+
+/*.benefitsblue:hover .yourtextlanding{
+display : none;
+}
+  */
+  
+.benefitsgray {
+	  background-color:#002554; 
+	  height:140px;
+	  background-image:url("../images/wellness.png");
+	  background-position: bottom right;
+	  background-repeat:no-repeat;
+	  background-size:35%;
+      border:2px white solid;
+  }
+
+
+/*.benefitsgray:hover .yourtextlanding{
+display : none !important; 
+}
+*/
+
+
+
+
+@media (max-width: 991px) {
+	
+  .yourtextlanding {
+	  font-size:20px;
+  }
+	 .homered {
+	  height:200px;
+	  background-size:40%;
+  }
+   .homeyellow {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homeblue {
+	  height:200px;
+	  background-size:40%;
+  }
+  .homegray {
+	  height:200px;
+	  background-size:40%;
+  }
+ 
+  
+}
+
+
+@media (max-width: 490px) {
+
+.small-text{
+	padding-top: 5px;
+	font-size: 12px;
+	line-height: normal;
+	
+	}
+.yourtextlanding {
+	  font-size:17px;
+  }
+
+  .homehover{
+
+  	font-size:17px !important;
+  }
+ 
+.benefitsgray{background-size:30%;}
+.benefitsred{background-size:30%;}
+.benefitsblue{background-size:30%;}
+.benefitsyellow{background-size:30%;}
+  
+.mobileshrink{
+  	width:60px;
+  }
+}
+
+
+
+
+
+      

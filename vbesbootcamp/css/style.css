@@ -1,0 +1,44 @@
+/* YOUR CUSTOM STYLES */
+
+.fa-beat {
+  -webkit-animation: fa-beat 1s infinite linear;
+  animation: fa-beat 1s infinite linear;
+}
+@-webkit-keyframes fa-beat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes fa-beat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.scroll-d{
+	color:white;
+	
+	color:-moz-linear-gradient(top, #fdfcfb 0%, #f2eeea 100%);
+	color:-webkit-linear-gradient(top, #fdfcfb 0%,#f2eeea 100%);
+	color:linear-gradient(to bottom, #fdfcfb 0%,#f2eeea 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfcfb', endColorstr='#f2eeea',GradientType=0 );
+
+}

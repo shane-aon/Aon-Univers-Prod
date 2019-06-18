@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="robots" content="noindex">
+    <title>J.CREW</title>
+    <!-- Bootstrap CSS -->
+  
+  <link href="StyleSheets/colorbox.css" rel="stylesheet">
+  <link href="StyleSheets/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+  <link href="StyleSheets/font-awesome.min.css" rel="stylesheet">
+    <!-- MAIN CSS -->
+  <link href="StyleSheets/style.css" rel="stylesheet">
+
+  
+  <script src="js/jquery.min.js"></script>
+  
+  <!--Colorbox-->
+ <script src="js/jquery.colorbox.js"></script>
+ <script src="js/jquery.colorbox-min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootbox.min.js"></script>
+  </head>
+  
+  <body>
+       <script>
+//Get keyvalue pair string that was set on log in page-->
+$(document).ready(function(){
+if(sessionStorage.getItem('benefits19', 'pw')) {
+$('.modal-backdrop').remove();
+$('#myModal').remove();
+}
+
+else{
+
+//link back to log in
+   window.location = "https://www.benefitsquest.com/jcrewlanding/";;
+
+}
+});
+
+</script>
+   
+<div class="page">
+      <div class="container">
+
+        <!-- START HEADER -->
+        <header class="header">
+          <div class="row">
+            <div class="col-sm-6 logo">
+              <a href="index.html"><img src="Images/logo.png" alt="J.CREW" style="max-width: 300px;"></a>
+            </div>
+            <div class="col-sm-6 enroll">
+             BENEFITS 2019
+            </div>
+          </div>
+        </header>
+
+        <!-- START NAV -->
+        <div class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                 <li><a href="index.html">Home</a></li>
+                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Benefits <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="benefits-overview.html">Overview</a></li>
+                    <li><a href="benefit-highlights.html">Benefit Highlights</a></li>
+                    <li class="dropdown-submenu"><a href="healthplan" class="dropdown-toggle" data-toggle="dropdown">Health Plan</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="healthplan-overview.html">Overview</a></li>
+                        <li><a href="medical-plan-summary.html">Medical Plan Summary</a></li>
+                        <li><a href="prescription-drug-plan.html">Prescription Drug Plan</a></li>
+                      <!--  <li><a href="right-plan-for-you">The Right Plan for You</a></li>-->
+                        <li><a href="total-cost-of-healthcare.html">Total Cost of Health Care</a></li>
+                        <li><a href="how-to-save-on-healthcare.html">How to Save</a></li>
+                        <li><a href="tobacco.html">Tobacco Free Incentive</a></li>
+                        <li><a href="consumer-choice-hsa.html">Consumer Choice + HSA</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="dental.html">Dental Plan</a></li>
+                    <li><a href="vision.html">Vision Plan</a></li>
+                    <li><a href="flexible-spending-account.html">Flexible Spending Account</a></li>
+
+                    <li><a href="critical-illness-insurance.html">Critical Illness Insurance</a></li>
+                    <li><a href="accident-insurance.html">Accident Insurance</a></li>
+                    <li><a href="hospital-indemnity-insurance.html">Hospital Indemnity Insurance</a></li>
+                    <li><a href="disability-insurance.html">Disability Insurance</a></li>
+                    <li><a href="life-insurance.html">Life Insurance</a></li>
+                     <!--<li><a href="401k.html">401k</a></li>-->
+                    <li><a href="other-benefits.html">Other Benefits</a></li>
+<li><a href="401k.html">401(k)</a></li>
+                    <li><a href="terms-to-know.html">Benefit Terms to Know</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Enrollment <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="enrollment-overview.html">Overview</a></li>
+                    <li><a href="how-to-enroll.html">How To Enroll</a></li> 
+										<li><a href="premiums.html">Premiums</a></li>
+                  </ul>
+                </li>
+                <li><a href="important-contact-information.html">Contacts</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+
+        <!-- START CONTENT AREA -->
+        <section class="content-area">
+          <div class="row">
+            <!-- Sidebar -->
+            <div class="col-sm-3">
+              <div class="sidebar">
+                <div class="img-wrapper">
+                  <img src="Images/2019/highlights.jpg" style="box-shadow: 0 8px 12px rgba(0,0,0,0.6);" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- Article -->
+            <div class="col-sm-9">
+              <div class="article editable" id="5">
+                <h3>BENEFIT HIGHLIGHTS</h3>
+                <p>As part of our commitment to making J.Crew and Madewell a great place to work, we are proud to offer a suite of quality benefits and resources that are diverse, flexible and competitive to help you and your loved ones maintain and improve your health and financial well-being. These valuable benefits are affected by the choices each of us makes, and how we use the plans, so we encourage you to thoroughly and thoughtfully review the available options to ensure they meet your needs in 2019.
+ </p>
+                <h4><!--HIGHLIGHTS FOR 2018-->  2019 Highlights</h4>
+                <ul>
+                  <!--<li><strong class="txt-brown"> J.Crew HSA Contributions</strong> – If you enroll in the CCP medical plan, J.Crew will contribute $500 to your HSA for individual coverage or $1,000 for family coverage.</li>
+                  <li><strong class="txt-brown">Telemedicine Program</strong> – The Telemedicine program provides quick and easy medical consultations from a computer, tablet or smart phone with board certified doctors, 24/7 for associates enrolled in the PPO or CCP medical plan. Under the PPO plan, you only pay a $10 copay for consultations. Under the CCP medical plan, you pay for the full cost of the visit until your plan deductible has been reached. Once you have reached your deductible, you will pay 20% of the cost of the visit. The doctors you speak with can treat certain medical issues, and can even write prescriptions if needed. Examples of addressed conditions include: cold & flu, pink eye, sore throat, skin issues & rashes, sports injuries and more. If you are enrolled in an Aetna medical plan, your Telemedicine program is through Teladoc. If you are enrolled in an Anthem medical plan, your Telemedicine program is through LiveHealth Online.</li>
+                  <li><strong class="txt-brown">Elective Benefits</strong> – Critical Illness, Hospital Indemnity and Accident Insurance complement your medical plan, reducing the financial risk of dealing with a major illness, hospital stay, or expenses associated with an accident.</li>-->
+                  <!--<li><strong class="txt-brown">Annual Deductibles</strong> – The PPO plan has a new annual In-Network Deductible of $300 for individual coverage and $600 for family coverage. (No change to the PPO Out-of-Network Deductible.) The CCP annual In-Network Deductible will be $1,750 for individual coverage and $3,500 for family coverage, and the CCP Out-of-Network Deductible will be $3,500 for individual coverage and $7,000 for family coverage.</li>
+                  <li><strong class="txt-brown">New Emergency Room Copay</strong> – Under the PPO plan, Emergency Room services will be covered at 100% after a $200 copay (up from $150 in 2017).</li>-->
+                  <li><strong class="txt-brown">Eligibility</strong> – Same or Opposite-Sex Domestic Partners will be eligible for coverage, except for Flexible Spending Accounts (FSAs). Refer to IRS regulations in the <a href="flexible-spending-account.html" class="link02">FSA section</a>.</li>
+                  <!--<li><strong class="txt-brown">Parental Leave Policy</strong> – Paid leave benefits will be available to pay a portion of earnings for new mothers, fathers
+                  and adoptive parents.</li>    -->              
+                  <li><strong class="txt-brown">Smart90 Rx Program through CVS</strong> – This maintenance medication program gives you more choice in how and where you
+                  can fill your prescriptions.</li>
+                  <li><strong class="txt-brown">Life Resources Program</strong> – You will have access to three (3) face-to-face confidential sessions for help with
+                  life’s concerns.</li>  
+                  <!--<li><strong class="txt-brown">No Evidence of Insurability (EOI)</strong> needed if you increase your Supplemental or Spouse Life one (1) level.</li>           -->                        
+                  <li><strong class="txt-brown">Annual Deductibles</strong> – The PPO plan has an annual In-Network Deductible of $500 for individual coverage and
+                  $1,000 for family coverage, and an Out-of-Network Deductible of $2,000 for individual coverage and $4,000 for family coverage. The CCP annual In-Network Deductible will be $2,000 for individual coverage and $4,000 for
+                  family coverage, and the CCP Out-of-Network Deductible will be $4,000 for individual coverage and $8,000 for
+                  family coverage.</li>
+                  <li><strong class="txt-brown">Annual Out-of-Pocket Maximums</strong> – The PPO and CCP plans have an annual In-Network Out-of-Pocket Maximum
+                  of $3,500 for individual coverage and $7,000 for family coverage, and an Out-of-Network Out-of-Pocket Maximum
+                  of $7,000 for individual coverage and $14,000 for family coverage.</li>
+                 
+
+
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- START FOOTER -->
+        <footer class="footer">
+        <a href="notices.html">Notices</a> &copy; 2019 J.CREW
+        </footer>
+
+      </div><!-- END CONTAINER -->
+    </div><!-- END PAGE -->
+
+
+<!--Toggle Dropdown script-->
+<script type="text/javascript">
+      (function($){
+        $(document).ready(function(){
+          $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+            $(this).parent().siblings().removeClass('open');
+            $(this).parent().toggleClass('open');
+          });
+        });
+      });
+</script>
+      
+    <!--Submenu Delay-->  
+      
+<script>
+jQuery('ul.nav li.dropdown').hover(function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+            }, function() {
+              jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+            });
+
+</script>
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10627922-44', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

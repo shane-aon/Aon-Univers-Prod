@@ -1,0 +1,563 @@
+
+
+
+/* Media Query to center nav titles */
+@media all and (min-width:765px) and (max-width:2400px) {
+header .navbar li .pp{
+	text-align:center;
+}
+}
+
+
+@media screen and (max-width: 768px){
+
+.home-slide {
+	position: relative;
+	height:225px;
+	
+	 
+}
+.home-slide li {
+	height: 225px;
+	text-align: center;
+	position: relative;
+
+}
+
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+
+.home-slide li h1 {
+    font-size: 30px;
+}
+  
+.top-right ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+header {
+	margin-top: 0px;
+}
+  
+.offer-services li {
+	width: 50%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+.ownmenu ul.dropdown, .ownmenu ul.dropdown li ul.dropdown {
+	width: 250px !important;
+}
+.ownmenu ul.dropdown, .ownmenu ul.dropdown li ul.dropdown {
+}
+header .ownmenu ul.dropdown {
+	padding: 0px;
+}
+header nav .ownmenu li {
+	float: left;
+	margin: 0px 0px;
+}
+header .quotes a {
+}
+header .navbar li a {
+}
+.procsss {
+	position: relative;
+	margin-top: 0px;
+	top: 0px;
+}
+.procsss .container {
+	width: 100%;
+}
+.procsss ul {
+	padding: 30px 0px;
+}
+.call-out {
+	text-align: center;
+}
+.call-out h4 {
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.heading {
+	width: 100%;
+}
+.what-we-do .rotatebox {
+	min-height: auto;
+	line-height: normal;
+}
+.tiles .tab-content {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.emergency {
+	text-align: center;
+}
+.emergency .text-right {
+	text-align: center;
+}
+.news .post-detail article {
+	margin-bottom: 30px;
+}
+.latest-work .col-4 .item.filter-home {
+	width: 100%;
+}
+.latest-work .col-4 .item.filter-home li {
+	display: inline-block;
+	width: auto;
+}
+.latest-work .col-4 .item.filter-home li a {
+	padding: 0 10px;
+	margin-top: -2px;
+}
+.latest-work .position-center-center {
+	width: 100%;
+	text-align: center;
+}
+.latest-work .col-4 .item {
+	width: 33.3333%;
+}
+.team ul li {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+.clients ul li {
+	float: left;
+	width: 33.3333%;
+	padding: 0px;
+}
+footer h4 {
+	display: inline-block;
+	width: 100%;
+	margin: 50px 0;
+	margin-bottom: 20px;
+}
+.footer-works>.col-md-3 {
+	float: left;
+	width: 33.3333%;
+	margin: 0px;
+	padding: 10px;
+}
+.latest-work .filter {
+	min-height: 80px;
+	display: inline-block;
+	width: 100%;
+}
+.tiles .nav-tabs {
+	display: inline-block;
+	width: 100%;
+}
+.offer-services li {
+	width: 33.333%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+header .container {
+	width: 100%;
+}
+header .search-nav ul.dropdown {
+	width: 100% !important;
+}
+header .ownmenu .look-book .nav-img {
+	width: 70px;
+	margin-right: 10px;
+}
+header .ownmenu .look-book .media-heading {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+header .ownmenu li > .megamenu li a {
+	padding: 5px 0
+}
+header .ownmenu .look-book p {
+}
+header .ownmenu > li > .megamenu.full-width {
+	padding: 30px;
+}
+header .ownmenu .look-book .media-body a {
+	padding: 5px 0 0 0px;
+}
+header .ownmenu > li > .megamenu.full-width .nav-post .col-sm-3 {
+	width: 50%;
+}
+header .ownmenu .megamenu h6 {
+	margin-top: 20px;
+}
+header .ownmenu ul.dropdown li a {
+	letter-spacing: 1px;
+}
+.what-we-do .rotatebox {
+	width: 50%;
+	float: left;
+}
+.what-we-do .rotatebox:nth-child(3) {
+	width: 100%;
+}
+.tiles {
+	padding-left: 0px;
+}
+.team .social li {
+	width: auto;
+}
+.media.padding-right-100 {
+	padding-right: 0px !important;
+}
+.testi .owl-nav {
+	left: 50%;
+	bottom: -40px;
+}
+.tab-pane.text-right {
+	text-align: center;
+}
+.tiles .nav-tabs {
+	text-align: center;
+}
+.tiles .nav-tabs li {
+	float: none;
+	display: inline-block;
+	text-align: left;
+}
+.portfolio.style-2 li.item {
+	width: 50% !important;
+}
+.counter ul li {
+	width: 50%;
+	margin-bottom: 30px;
+}
+header {
+	padding: 0px;
+}
+header .logo {
+	width: 100%;
+	padding: 20px 0px;
+	text-align: left;
+	padding-top: 0px;
+	border: none;
+	position: relative;
+}
+header .navbar {
+	width: 100%;
+}
+.top-bar {
+	width: 100%;
+}
+.top-info {
+	height: auto;
+	padding-bottom: 10px;
+}
+.right-sec {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+header .ownmenu {
+	
+	padding: 0px;
+}
+.search-icon {
+	margin-top: 5px;
+}
+.home-slide .position-center-center {
+	width: 100%;
+}
+.latest-work .filter {
+	top: 0px;
+	position: relative;
+	margin-bottom: 20px;
+	min-height: auto;
+}
+.members li {
+	width: 50%;
+}
+.home-slide .slide-img-1 {
+	background-position: center center !important;
+}
+.home-slide .slide-img-2 {
+	background-position: center center !important;
+}
+.home-slide .slide-img-3 {
+	background-position: center center !important;
+}
+.sub-bnr{
+	background-position: center center !important;
+}
+.portfolio .col-3 .cbp-item {
+	width: 50%;
+}
+.portfolio .bottom-detail {
+	width: auto;
+	right: 20px;
+}
+.portfolio .bottom-detail h3 {
+	font-size: 18px;
+}
+.portfolio .top-detail a {
+	height: 50px;
+	width: 50px;
+	line-height: 52px;
+}
+footer h6 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+}
+footer .photo-steam {
+	display: inline-block;
+	width: 100%;
+}
+.team-list article h5{
+	margin-top:15px;
+}
+}
+
+@media all and (max-width:767px) {
+
+
+.tiles {
+	padding-left: 0px;
+}
+  
+  
+header .navbar li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header .navbar li {
+	margin: 0px;
+}
+.top-right {
+	width: 100%;
+}
+.top-right ul {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.testi .owl-nav {
+	left: 50%;
+	bottom: -40px;
+}
+.sub-bnr h4 {
+	margin-top: 0px;
+}
+.sub-bnr {
+	min-height: 350px
+}
+#tabs {
+	margin-bottom: 30px;
+}
+.ownmenu {
+	width: 100%;
+}
+.ownmenu > li.showhide span.icon {
+	padding: 0px;
+	margin: 0px;
+}
+  
+header .navbar{
+  	height:auto
+  }
+
+header nav li a {
+}
+.is-sticky .sticky {
+	position: relative !important;
+}
+
+header nav {
+	float: none;
+	width: 100%;
+}
+header nav .ownmenu .indicator {
+	display: block;
+}
+header nav li a {
+	display: inline-block;
+	width: 100%;
+	float: none;
+}
+.ownmenu > li.showhide span {
+	line-height: 50px;
+	display: inline-block;
+	width: 100%;
+}
+
+/** SHOW NAVIGATION ON MOBILE**/
+.nav {
+
+	display: block !important;
+}
+.ownmenu > li.showhide {
+	text-align: right;
+	color: #2D418F;
+	font-size: 20px;
+	margin-top:-65px;
+    width: 40px;
+    float: right;
+	margin-bottom:0 !important;
+}
+.search-icon a{
+	right:32px;
+}
+.inside-colio .img-responsive{
+	margin:35px 0;
+}
+.inside-colio  .heading {
+	margin-top:20px;
+}
+.ownmenu > li.showhide span.title {
+	margin: 0px;
+}
+.ownmenu > li > a {
+	padding: 10px 0;
+	text-align: left;
+}
+.ownmenu .indicator {
+	display: block;
+}
+header {
+	position: relative;
+}
+
+header {
+	padding: 0px;
+}
+
+header .ownmenu {
+	width: 100%;
+	padding: 0px;
+}
+
+.home-slide li h1 {
+	font-size: 30px;
+}
+header .navbar {
+	width: 100%;
+    padding-bottom: 10px;
+}
+.ownmenu ul.dropdown:before{
+	display:none;
+}
+.ownmenu ul.dropdown li a{
+	line-height:36px;
+}
+.ownmenu .indicator{
+	margin-top:-2px;
+}
+.top-bar {
+	width: 100%;
+}
+header .ownmenu {
+	width: 100%;
+}
+.home-slide .position-center-center {
+	width: 100%;
+}
+.heading p {
+	width: 100%;
+}
+.members li {
+	width: 50%;
+	float: left;
+}
+.home-slide .slide-img-1 {
+	background-position: center center !important;
+}
+.home-slide .slide-img-2 {
+	background-position: center center !important;
+}
+.home-slide .slide-img-3 {
+	background-position: center center !important;
+}
+.sub-bnr{
+	background-position: center center !important;
+}
+.portfolio .col-3 .cbp-item {
+	width: 100%;
+}
+.portfolio .bottom-detail {
+	width: auto;
+	right: 20px;
+}
+.portfolio .bottom-detail h3 {
+	font-size: 18px;
+}
+.portfolio .top-detail a {
+	height: 50px;
+	width: 50px;
+	line-height: 52px;
+}
+footer h6 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+}
+
+@media all and (max-width:540px) {
+
+
+
+.home-slide {
+	position: relative;
+	height:220px;
+	
+	 
+}
+.home-slide li {
+	height: 220px;
+	text-align: center;
+	position: relative;
+
+}
+
+.home-icon{
+	width:50px;
+
+}
+
+@media(max-width:445px) {
+
+	.tiles h5{
+
+		font-size: 15px;
+
+
+	}
+
+}
+
+  
+  
+}
+@media(max-width:375px) {
+
+.home-slide {
+	position: relative;
+	height:130px;
+	
+	 
+}
+.home-slide li {
+	height: 130px;
+	text-align: center;
+	position: relative;
+
+}
+
+.home-slide li h1 {
+	font-size: 25px;
+}
+}
+
